@@ -1,5 +1,3 @@
-# Python
----
 # Week 1 - 21/04/2025
 
 ## ¿Qué es programación?
@@ -35,14 +33,22 @@ Conjunto de instrucciones ordenadas y finitos que resuelven un problema determin
 - **Salida:** Datos transformados por el algoritmo después del procesamiento y mostrados como resultado.
 
 ## Tipos de algoritmos
-- **Matemático:** Operaciones aritmeticas
-- **De busqueda:** Buscar elementos dentro de una estructura de datos
-    - prueba
-- De ordenación
-- De grafos
-- De cifrado
-- De compresión
-- De backtracking
-- Divide/Conquer
-- De programación dinámica
-- De inteligencia artificial
+- **Matemático:** Operaciones aritmeticas.
+- **De busqueda:** Buscar elementos dentro de una estructura de datos.
+    - Búsqueda binaria
+- **De ordenación:** Ordenar elementos en secuencia o un orden en particular.
+    - Quicksort
+    - Bubble Sort
+- **De grafos:** Problemas relacionados con grafos
+    - Dijkstra - Encontrar el camino más corto
+- **De cifrado:** Garantizan seguridad e integridad de datos
+    - AES (Advanced Encryption Standard)
+- **De compresión:** Reducen el tamaño de los datos
+    - Huffman
+- **De backtracking:** Resuelve problemas mediante la búsqueda de todas las soluciones posibles
+    - Problema de las N-reinas
+- **Divide/Conquer:** Divide el problema en problemas más pequeños y los resuelve por separado.
+    - Mergesort
+- **De programación dinámica:** Resuelve problemas dividiendolos en problemas pqueños que se solapan, enfoque del "resolver una vez y reutilizar muchas veces"
+    - Floyd-Warshall
+- **De inteligencia artificial:** Incluye técnicas como aprendizaje automático y redes neuronales.
