@@ -25,3 +25,5 @@
 - int (Números enteros) [0, 1, 2...]
 - string (cadena) ["Hola mundo"]
 - float (Números decimales) [1.1, 1.2, 1.3...]
+
+## Funciones
