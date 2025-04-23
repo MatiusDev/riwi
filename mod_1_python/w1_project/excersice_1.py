@@ -6,7 +6,7 @@ name_2 = input("Ingresa el nombre de la persona 2: ")
 age_2 = int(input("Ingrese la edad de la persona 2: "))
 
 def is_older(age, name):
-    if (age > 18):
+    if (age >= 18):
         print(f"{name} es mayor de edad")
 
 is_older(age_1, name_1)
