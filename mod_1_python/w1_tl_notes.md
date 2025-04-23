@@ -27,3 +27,9 @@
 - float (Números decimales) [1.1, 1.2, 1.3...]
 
 ## Funciones
+
+### Consultas (22/04/25)
+- Conventional commit
+- For loop
+- While loop
+- Switch cases
