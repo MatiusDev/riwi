@@ -1,0 +1,3 @@
+[submodule "w1_module_python/w1_lessons/02_excersices"]
+	path = w1_module_python/w1_lessons/02_excersices
+	url = https://github.com/MatiusDev/python-excersices.git
