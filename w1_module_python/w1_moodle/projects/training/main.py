@@ -25,16 +25,6 @@ def valid_option(opt):
         return False
     return True
 
-def valid_action(opt):
-    if (not is_a_number(opt)):
-        return False
-    
-    num_opt = int(opt)
-    if (not num_opt in range(len(opts)+1)):
-        return False
-    return True
-
-IVA = 19
 USERS = [
     {
         "username": "matiusdev",
@@ -105,15 +95,10 @@ def start():
             print("0. Salir")
             action = input("Seleccione su opción: ")
 
-            if (not valid_action(action)):
-                print("Opción no valida, por favor intente de nuevo.")
-                continue
-            
             if (int(action) == 0):
                 break
 
-            print(f"Opción: {action}")
-
+            print(f"La opción que elegiste fue: {action}")            
         print(f"\nGracias por usar nuestro software {user["fullname"]}\n")
     print(f"Recuerda calificar tu experiencia con la aplicación, ten un buen día :)")
 
