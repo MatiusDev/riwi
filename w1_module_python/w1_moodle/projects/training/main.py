@@ -89,16 +89,17 @@ def start():
 
         while(True):
             print("")
-            print(f"Bienvenido de nuevo {username}, ¿Qué deseas hacer hoy?")
+            print(f"Bienvenido de nuevo {user['fullname']}, ¿Qué deseas hacer hoy?")
             for i in range(len(opts)):
                 print(f"{i+1}. {opts[i]}")
             print("0. Salir")
             action = input("Seleccione su opción: ")
-
-            if (int(action) == 0):
+            action = int(action)
+            
+            if (action == 0):
                 break
 
-            print(f"La opción que elegiste fue: {action}")            
+            print(f"La opción que elegiste fue: {opts[action-1]}")            
         print(f"\nGracias por usar nuestro software {user["fullname"]}\n")
     print(f"Recuerda calificar tu experiencia con la aplicación, ten un buen día :)")
 
