@@ -95,9 +95,10 @@ def show_action(opt, user):
                 "discount": discount
             }
             products.append(product)
+            print("\nEl producto fue agregado correctamente.")
         case 3:# Editar producto
             print("\n*** EDITAR PRODUCTO ***")
-            id = int(input("Ingrese el ID del producto: "))
+            id = input("Ingrese el ID del producto: ")
             
             for product in products:
                 if product["id"] == id:
@@ -115,7 +116,7 @@ def show_action(opt, user):
          
         case 4:# Eliminar producto
             print("\n*** ELIMINAR PRODUCTO ***")
-            id = int(input("Ingrese el ID del producto: "))
+            id = input("Ingrese el ID del producto: ")
             
             for product in products:
                 if product["id"] == id:
