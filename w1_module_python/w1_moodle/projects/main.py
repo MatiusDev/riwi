@@ -52,6 +52,16 @@ def is_a_number(str):
     except ValueError:
         return False
     
+def is_a_float(str):
+    if (len(str) == 0):
+        return False
+    
+    try:
+        int(str)
+        return True
+    except ValueError:
+        return False
+    
 def valid_option(opt):
     if (not is_a_number(opt)):
         return False
@@ -83,9 +93,24 @@ def show_action(opt, user):
         case 2:# Agregar producto
             print("*** NUEVO PRODUCTO ***")
             name = input("Ingrese el nombre: ")
-            price = float(input("Ingrese el precio: "))
-            amount = int(input("Ingrese la cantidad: "))
-            discount = float(input("Ingrese el descuento (%): "))
+
+            price = input("Ingrese el precio: ")
+            if not is_a_float(price):
+                print("Debes ingresar un precio valido")
+                return
+
+            amount = input("Ingrese la cantidad: ")
+            if not is_a_number(amount):
+                print("Debes ingresar una cantidad valida")
+                return
+            
+            discount = input("Ingrese el descuento (0 - 100)%: ")
+            if not is_a_float(discount):
+                print("Debes escribir un descuento valido")
+                return
+            discount = float(discount)
+            if (discount )
+
             id = f"2025{random.randrange(0, 2025) * random.randint(1, 13)}"
             product = {
                 "id": id,
@@ -103,9 +128,11 @@ def show_action(opt, user):
             for product in products:
                 if product["id"] == id:
                     name = input("Ingrese el nuevo nombre: ")
+
                     price = float(input("Ingrese el nuevo precio: "))
                     amount = int(input("Ingrese la nueva cantidad: "))
                     discount = float(input("Ingrese el nuevo descuento (%): "))
+
                     product["name"] = name
                     product["price"] = price
                     product["amount"] = amount
