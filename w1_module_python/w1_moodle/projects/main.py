@@ -31,36 +31,16 @@ opts = [
     "Mostrar productos",
     "Agregar producto",
     "Editar producto",
-    "Eliminar producto"
+    "Eliminar producto",
+    "Limpiar carrito",
+    "Calcular total"
 ]
 
 opts_admin = opts + [
     "Mostrar usuarios"
 ]
 
-products = [
-    {
-        "id": 12345,
-        "name": "Manzana",
-        "price": 5000,
-        "amount": 2,
-        "discount": 0
-    },
-    {
-        "id": 234123412,
-        "name": "Plátano",
-        "price": 3000,
-        "amount": 1,
-        "discount": 0
-    },
-    {
-        "id": 3213211,
-        "name": "Naranja",
-        "price": 2500,
-        "amount": 4,
-        "discount": 0
-    }
-]
+products = []
 
 def is_a_number(str):
     if (len(str) == 0):
@@ -81,19 +61,25 @@ def valid_option(opt):
         return False
     return True
 
-def show_action(opt, user, id_product):
+def show_action(opt, user):
     if (type(opt) != int):
         print("\nHa ocurrido un error, por favor consulta un administrador")
         return
-    ADMIN = opts_admin.index("Mostrar usuarios")+1
 
+    # Validar si productos están vacíos
+    if (opt == 1 or opt > 2 and opt <= len(opts)):
+        if (len(products) == 0):
+            print("\nNo hay productos en el carrito.")
+            return
+    
+    SHOW_USERS = opts_admin.index("Mostrar usuarios")+1
     match opt:
-        case 1:
-            print("*** CARRITO ***")
-            print(f"\n{'Nombre producto'.ljust(20)}| {'Precio'.ljust(10)}| {'Cantidad'.ljust(15)}| {'Descuento'}")
-            print("-------------------------------------------------------------")
+        case 1:# Mostrar productos
+            print("\n*** LISTA DE PRODUCTOS ***")
+            print(f"\n{'ID'.ljust(15)}| {'Nombre'.ljust(20)}| {'Precio'.ljust(10)}| {'Cantidad'.ljust(15)}| Descuento (%)")
+            print("---------------------------------------------------------------------------------")
             for product in products:
-                print(f"{str(product["name"]).ljust(20)}| {str(product["price"]).ljust(10)}| {str(product["amount"]).ljust(15)}| {product["discount"]}" )
+                print(f"{str(product['id']).ljust(15)}| {str(product['name']).ljust(20)}| {str(product['price']).ljust(10)}| {str(product['amount']).ljust(15)}| {product['discount']}")
         case 2:# Agregar producto
             print("*** NUEVO PRODUCTO ***")
             name = input("Ingrese el nombre: ")
@@ -110,10 +96,44 @@ def show_action(opt, user, id_product):
             }
             products.append(product)
         case 3:# Editar producto
-            pass
+            print("\n*** EDITAR PRODUCTO ***")
+            id = int(input("Ingrese el ID del producto: "))
+            
+            for product in products:
+                if product["id"] == id:
+                    name = input("Ingrese el nuevo nombre: ")
+                    price = float(input("Ingrese el nuevo precio: "))
+                    amount = int(input("Ingrese la nueva cantidad: "))
+                    discount = float(input("Ingrese el nuevo descuento (%): "))
+                    product["name"] = name
+                    product["price"] = price
+                    product["amount"] = amount
+                    product["discount"] = discount
+                    break
+            else:
+                print("No se encontró el producto con ese ID.")
+         
         case 4:# Eliminar producto
-            pass
-        case _ if opt == ADMIN:
+            print("\n*** ELIMINAR PRODUCTO ***")
+            id = int(input("Ingrese el ID del producto: "))
+            
+            for product in products:
+                if product["id"] == id:
+                    products.remove(product)
+                    break
+            else:
+                print("No se encontró el producto con ese ID.")
+        case 5:# Limpiar carrito
+            print("\n*** LIMPIAR CARRITO ***")
+            products.clear()
+            print("El carrito ha sido limpiado.")
+        case 6:# Calcular total
+            print("\n*** CALCULAR TOTAL ***")
+            total = 0
+            for product in products:
+                total += product["price"] * product["amount"] * (1 - product["discount"] / 100)
+            print(f"El total de la compra es: {total}")
+        case _ if opt == SHOW_USERS:
             if not user['is_admin']:
                 print("Ingresaste una opción invalida")
                 return
@@ -121,7 +141,7 @@ def show_action(opt, user, id_product):
             print(f"\n{'Nombre completo'.ljust(20)}| {'Nombre de usuario'.ljust(25)}| {'Edad'.ljust(5)}| {'Role'}")
             print("----------------------------------------------------------------------")
             for user in USERS:
-                print(f"{str(user["fullname"]).ljust(20)}| {str(user["username"]).ljust(25)}| {str(user["age"]).ljust(5)}| {"Administrador" if user["is_admin"] else "Usuario"}" )
+                print(f"{str(user['fullname']).ljust(20)}| {str(user['username']).ljust(25)}| {str(user['age']).ljust(5)}| {'Administrador' if user['is_admin'] else 'Usuario'}" )
         case _:
             print("Ingresaste una opción invalida")
 
@@ -157,7 +177,7 @@ def start():
 
         while(True):
             print("")
-            print(f"Bienvenido de nuevo {user['fullname']}, ¿Qué deseas hacer hoy?")
+            print(f"Bienvenido {user['fullname']}, ¿Qué deseas hacer hoy?")
 
             my_opts = opts_admin if user['is_admin'] else opts
 
@@ -175,8 +195,8 @@ def start():
             if (action == 0):
                 break
 
-            show_action(action, user, 0)          
-        print(f"\nGracias por usar nuestro software {user["fullname"]}\n")
+            show_action(action, user)          
+        print(f"\nGracias por usar nuestro software {user['fullname']}\n")
     print(f"Recuerda calificar tu experiencia con la aplicación, ten un buen día :)")
 
 if __name__ == "__main__":
