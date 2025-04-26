@@ -71,7 +71,7 @@ def valid_option(opt):
         return False
     return True
 
-def validate_price(price):
+def is_valid_price(price):
     if not is_a_float(price):
         print("Debes ingresar un precio valido")
         return False
@@ -81,7 +81,7 @@ def validate_price(price):
         return False
     return True
 
-def validate_amount(amount):
+def is_valid_amount(amount):
     if not is_a_number(amount):
         print("Debes ingresar una cantidad valida")
         return False
@@ -92,7 +92,7 @@ def validate_amount(amount):
         return False
     return True
 
-def validate_discount(discount):
+def is_valid_discount(discount):
     if not is_a_float(discount):
         print("Debes ingresar un descuento valido")
         return False
@@ -127,15 +127,15 @@ def show_action(opt, user):
             name = input("Ingrese el nombre: ")
 
             price = input("Ingrese el precio: ")
-            if not validate_price(price):
+            if not is_valid_price(price):
                 return
 
             amount = input("Ingrese la cantidad: ")
-            if not validate_amount(amount):
+            if not is_valid_amount(amount):
                 return
             
             discount = input("Ingrese el descuento (0 - 100)%: ")
-            if not validate_discount(discount):
+            if not is_valid_discount(discount):
                 return
 
             id = f"2025{random.randrange(0, 2025) * random.randint(1, 13)}"
@@ -157,15 +157,15 @@ def show_action(opt, user):
                     name = input("Ingrese el nuevo nombre: ")
 
                     price = input("Ingrese el precio: ")
-                    if not validate_price(price):
+                    if not is_valid_price(price):
                         return
 
                     amount = input("Ingrese la cantidad: ")
-                    if not validate_amount(amount):
+                    if not is_valid_amount(amount):
                         return
                     
                     discount = input("Ingrese el descuento (0 - 100)%: ")
-                    if not validate_discount(discount):
+                    if not is_valid_discount(discount):
                         return
 
                     product["name"] = name
