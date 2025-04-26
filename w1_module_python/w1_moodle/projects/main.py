@@ -106,10 +106,13 @@ def show_action(opt, user):
             
             discount = input("Ingrese el descuento (0 - 100)%: ")
             if not is_a_float(discount):
-                print("Debes escribir un descuento valido")
+                print("Debes ingresar un descuento valido")
                 return
+            
             discount = float(discount)
-            if (discount )
+            if (discount < 0 and discount > 100):
+                print("Debes ingresar un descuento entre 0 y 100 %")
+                return
 
             id = f"2025{random.randrange(0, 2025) * random.randint(1, 13)}"
             product = {
