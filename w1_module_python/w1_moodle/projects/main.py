@@ -57,7 +57,7 @@ def is_a_float(str):
         return False
     
     try:
-        int(str)
+        float(str)
         return True
     except ValueError:
         return False
@@ -68,6 +68,38 @@ def valid_option(opt):
     
     num_opt = int(opt)
     if (num_opt < -1 or num_opt > 2):
+        return False
+    return True
+
+def validate_price(price):
+    if not is_a_float(price):
+        print("Debes ingresar un precio valido")
+        return False
+    
+    if float(price) < 0:
+        print("El precio debe ser un valor positivo")
+        return False
+    return True
+
+def validate_amount(amount):
+    if not is_a_number(amount):
+        print("Debes ingresar una cantidad valida")
+        return False
+    
+    amount = int(amount)
+    if amount < 0:
+        print("La cantidad debe ser un valor positivo")
+        return False
+    return True
+
+def validate_discount(discount):
+    if not is_a_float(discount):
+        print("Debes ingresar un descuento valido")
+        return False
+    
+    discount = float(discount)
+    if (discount < 0 or discount > 100):
+        print("Debes ingresar un descuento entre 0 y 100 %")
         return False
     return True
 
@@ -95,43 +127,24 @@ def show_action(opt, user):
             name = input("Ingrese el nombre: ")
 
             price = input("Ingrese el precio: ")
-            if not is_a_float(price):
-                print("Debes ingresar un precio valido")
-                return
-            
-            price = float(price)
-            if price < 0:
-                print("El precio debe ser un valor positivo")
+            if not validate_price(price):
                 return
 
             amount = input("Ingrese la cantidad: ")
-            if not is_a_number(amount):
-                print("Debes ingresar una cantidad valida")
-                return
-            
-            amount = int(amount)
-            if amount < 0:
-                print("La cantidad debe ser un valor positivo")
+            if not validate_amount(amount):
                 return
             
             discount = input("Ingrese el descuento (0 - 100)%: ")
-            if not is_a_float(discount):
-                print("Debes ingresar un descuento valido")
-                return
-            
-            discount = float(discount)
-            print(discount)
-            if (discount < 0 or discount > 100):
-                print("Debes ingresar un descuento entre 0 y 100 %")
+            if not validate_discount(discount):
                 return
 
             id = f"2025{random.randrange(0, 2025) * random.randint(1, 13)}"
             product = {
                 "id": id,
                 "name": name,
-                "price": price,
-                "amount": amount,
-                "discount": discount
+                "price": float(price),
+                "amount": int(amount),
+                "discount": float(discount)
             }
             products.append(product)
             print("\nEl producto fue agregado correctamente.")
@@ -144,40 +157,21 @@ def show_action(opt, user):
                     name = input("Ingrese el nuevo nombre: ")
 
                     price = input("Ingrese el precio: ")
-                    if not is_a_float(price):
-                        print("Debes ingresar un precio valido")
-                        return
-                    
-                    price = float(price)
-                    if price < 0:
-                        print("El precio debe ser un valor positivo")
+                    if not validate_price(price):
                         return
 
                     amount = input("Ingrese la cantidad: ")
-                    if not is_a_number(amount):
-                        print("Debes ingresar una cantidad valida")
-                        return
-                    
-                    amount = int(amount)
-                    if amount < 0:
-                        print("La cantidad debe ser un valor positivo")
+                    if not validate_amount(amount):
                         return
                     
                     discount = input("Ingrese el descuento (0 - 100)%: ")
-                    if not is_a_float(discount):
-                        print("Debes ingresar un descuento valido")
-                        return
-                    
-                    discount = float(discount)
-                    print(discount)
-                    if (discount < 0 or discount > 100):
-                        print("Debes ingresar un descuento entre 0 y 100 %")
+                    if not validate_discount(discount):
                         return
 
                     product["name"] = name
-                    product["price"] = price
-                    product["amount"] = amount
-                    product["discount"] = discount
+                    product["price"] = float(price)
+                    product["amount"] = int(amount)
+                    product["discount"] = float(discount)
                     break
             else:
                 print("No se encontró el producto con ese ID.")
