@@ -1,0 +1,147 @@
+# Mini-proyecto: "Agenda de Contactos"
+# Descripción:
+# Crea una pequeña agenda que permita:
+
+# Agregar un nuevo contacto (nombre y número de teléfono).
+
+# Buscar un contacto por su nombre.
+
+# Mostrar todos los contactos.
+
+# Eliminar un contacto.
+
+# Requisitos:
+# Usar un diccionario donde el nombre sea la clave y el número sea el valor.
+
+# Crear un pequeño menú en consola para elegir las acciones.
+
+opts = [
+	"Agregar un contacto",
+	"Buscar contacto por nombre",
+	"Mostrar todos los contactos",
+	"Editar un contacto",
+	"Eliminar un contacto",
+	"Salir"
+]
+
+contacts = { "Mateo": "1234567891"}
+
+def validate_options(opt):
+	try:
+		opt = int(opt)
+
+		if opt <= 0 or opt > len(opts):
+			raise ValueError
+
+		return True
+	except ValueError:
+		print("Debes ingresar un número valido")
+		return False
+
+def is_valid_name(name):
+    name_no_spaces = name.replace(" ", "")
+    if not name_no_spaces.isalpha():
+        print("Error: El nombre no debe tener números")
+        return False
+    return True
+
+def is_valid_number(number):
+    if len(number) < 10:
+        print("El número debe tener al menos 10 digitos.")
+        return False
+    
+    if not number.isnumeric():
+        print("El campo solo debe tener números.")
+        return False
+    
+    return True
+
+def add(name, number):
+    if name in contacts:
+        print("\nError: El contacto ya existe")
+        return
+    contacts[name] = number
+    print("\nContacto creado correctamente!")
+
+def edit(name, number):
+    if not name in contacts:
+        print("\nContacto no encontrado!")
+        return
+    contacts[name] = number
+    print("\nContacto actualizado!")
+
+def delete(name):
+    if not name in contacts:
+        print("\nContacto no encontrado!")
+        return
+    del contacts[name]
+    print("\nContacto eliminado!")
+
+def search_by_name(name):
+    if not name in contacts:
+        print("\nContacto no encontrado!")
+        return
+    print(f"\nContacto: {name} - {contacts[name]}")
+
+def show_all():
+    for name, number in contacts.items():
+        print(f"{name} - {number}")
+    print()
+
+while True:
+	print("*** Agenda de Contactos ***")
+	for idx, opt in enumerate(opts):
+		print(f"{idx+1}. {opt}")
+	opt = input("Ingrese su opción: ")
+	if not validate_options(opt):
+		continue
+	opt = int(opt)
+
+	match opt:
+		case 1:
+			while True:
+				print("\n*** Agregar un contacto ***")
+				name = input("Ingrese el nombre de contacto: ").strip()
+				if not is_valid_name(name):
+					continue
+				number = input("Ingrese el número de contacto: ").strip()
+				if not is_valid_number(number):
+					continue
+				add(name, number)
+				break
+		case 2:
+			while True:
+				print("\n*** Buscar contacto por nombre ***")
+				name = input("Ingrese el nombre de contacto: ").strip()
+				if not is_valid_name(name):
+					continue
+				search_by_name(name)
+				break
+		case 3:
+			print("\n*** Lista de contactos ***")
+			show_all()
+		case 4:
+			while True:
+				print("\n*** Editar un contacto ***")
+				name = input("Ingrese el nombre de contacto: ").strip()
+				if not is_valid_name(name):
+					continue
+				number = input("Ingrese el número de contacto: ").strip()
+				if not is_valid_number(number):
+					continue
+				edit(name, number)
+				break
+		case 5:
+			while True:
+				print("\n*** Borrar un contacto ***")
+				name = input("Ingrese el nombre de contacto: ").strip()
+				if not is_valid_name(name):
+					continue
+				delete(name)
+				break
+		case 6:
+			print("\nVuelve pronto!")
+			break
+		case _:
+			print("\nDebes ingresar una opción valida!")
+	print()
