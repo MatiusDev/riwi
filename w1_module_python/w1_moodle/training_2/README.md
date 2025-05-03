@@ -19,3 +19,5 @@ El programa que vas a desarrollar en este entrenamiento debe:
     - Permitir al usuario ingresar una lista de calificaciones (separadas por comas)
     - Calcular y mostrar el promedio de las calificaciones en la lista
 
+## GIT
+[Training_2](https://github.com/MatiusDev/riwi-notes/tree/master/w1_module_python/w1_moodle/training_2)
