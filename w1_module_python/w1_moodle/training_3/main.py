@@ -179,7 +179,6 @@ def start():
     match opt:
       case 1:
         show_add_menu()
-        print(products)
       case 2:
         show_get_menu()
       case 3:
