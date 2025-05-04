@@ -74,7 +74,7 @@ def show_get_menu():
       continue
     # Se consulta el producto en el inventario
     amount, price = get_products(name)
-    print(f"\nEl producto {name} tiene {amount} unidades y un precio de {price}.\n")
+    print(f"\nEl producto {name} tiene {amount} unidades y un precio de ${price:,.2f} pesos.\n")
     return
 
 # Función para consultar un producto en el inventario
@@ -111,7 +111,7 @@ def update_product(name: str, price: float):
   # Se actualiza el precio del producto en el inventario
   amount = products[name][0]
   products[name] = (amount, price)
-  print(f"\nEl precio del producto {name} se ha actualizado correctamente a {price}.\n")
+  print(f"\nEl precio del producto {name} se ha actualizado correctamente a ${price:,.2f} pesos.\n")
   
 # Función para mostrar el menú de eliminar productos y validar la entrada
 def show_delete_menu():
@@ -139,7 +139,7 @@ def show_calculate_menu():
   print("\n*** Calcular Valor Total del Inventario ***")
   # Se calcula el valor total del inventario
   total_value = calculate_total_value()
-  print(f"\nEl valor total del inventario es: ${total_value:.2f}.\n")
+  print(f"\nEl valor total del inventario es: ${total_value:,.2f} pesos.\n")
 
 # Función para calcular el valor total del inventario
 def calculate_total_value():
