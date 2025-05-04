@@ -68,18 +68,19 @@ def show_get_menu():
     name = input("Ingrese el nombre del producto: ")
     if not is_a_valid_string(name):
       continue
+    # Se verifica si el producto existe en el inventario
+    if not name in products:
+      print("\nError: El producto no existe en el inventario.\n")
+      continue
     # Se consulta el producto en el inventario
-    get_products(name)
+    amount, price = get_products(name)
+    print(f"\nEl producto {name} tiene {amount} unidades y un precio de {price}.\n")
     return
 
 # Función para consultar un producto en el inventario
-def get_products(name: str):
-  # Se verifica si el producto existe en el inventario
-  if name in products:
-    amount, price = products[name]
-    print(f"\nEl producto {name} tiene {amount} unidades y un precio de {price}.\n")
-  else:
-    print("\nError: El producto no existe en el inventario.\n")
+def get_products(name: str): 
+  # Si existe, se devuelve la cantidad y el precio del producto
+  return products[name]
 
 # Función para mostrar el menú de actualizar productos y validar la entrada
 def show_update_menu():
@@ -138,7 +139,7 @@ def show_calculate_menu():
   print("\n*** Calcular Valor Total del Inventario ***")
   # Se calcula el valor total del inventario
   total_value = calculate_total_value()
-  print(f"\nEl valor total del inventario es: {total_value}.\n")
+  print(f"\nEl valor total del inventario es: ${total_value:.2f}.\n")
 
 # Función para calcular el valor total del inventario
 def calculate_total_value():
@@ -152,11 +153,11 @@ def calculate_total_value():
 products = {}
 
 menu_options = [
-  "Añadir un producto",
-  "Consultar un producto",
-  "Actualizar precio de un producto",
-  "Eliminar precio de un producto",
-  "Calcular el valor total del inventario",
+  "Añadir producto",
+  "Buscar producto por nombre",
+  "Actualizar precio",
+  "Eliminar producto",
+  "Calcular valor total del inventario",
   "Salir"
 ]
 
@@ -166,8 +167,8 @@ def start():
   print("Bienvenido al sistema de inventario.") 
   while True:
     # Mostrar el menú de opciones
-    for i, opt in enumerate(menu_options, start=1):
-      print(f"{i}. {opt}")
+    for i in range(len(menu_options)):
+      print(f"{i+1}. {menu_options[i]}")
     opt = input("Seleccione una opción: ")
     opt = convert_to_valid_int(opt)
     
