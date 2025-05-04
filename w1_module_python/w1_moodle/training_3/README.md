@@ -29,4 +29,7 @@
 
 - El flujo del programa debe ser interactivo, permitiendo que el usuario escoja qué operación desea realizar. Además, asegúrate de manejar posibles errores, como la búsqueda de productos que no existen o intentos de añadir productos con datos inválidos.
 
-- Finalmente, el código debe ser legible, bien estructurado y comentado. No olvides probar exhaustivamente tu solución con distintos escenarios para asegurar que funciona correctamente en todo tipo de casos. 
+- Finalmente, el código debe ser legible, bien estructurado y comentado. No olvides probar exhaustivamente tu solución con distintos escenarios para asegurar que funciona correctamente en todo tipo de casos.
+- 
+## GIT
+[Training_3](https://github.com/MatiusDev/riwi-notes/tree/master/w1_module_python/w1_moodle/training_3)

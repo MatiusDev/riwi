@@ -12,3 +12,4 @@
 ## Trainings
 * [Training W1](w1_module_python/w1_moodle/training_1)
 * [Training W2](w1_module_python/w1_moodle/training_2)
+* [Training W3](w1_module_python/w1_moodle/training_3)
