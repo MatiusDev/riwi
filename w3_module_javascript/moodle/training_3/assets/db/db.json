@@ -20,6 +20,18 @@
               "title": "News of the World",
               "year": 1977,
               "cover": "https://upload.wikimedia.org/wikipedia/en/0/02/Queen_News_Of_The_World.png"
+            },
+            {
+              "id": 3,
+              "title": "Jazz",
+              "year": 1978,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/Queen_Jazz.png"
+            },
+            {
+              "id": 4,
+              "title": "The Game",
+              "year": 1980,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Queen_The_Game.png"
             }
           ]
         },
@@ -39,6 +51,80 @@
               "title": "Sgt. Pepper's Lonely Hearts Club Band",
               "year": 1967,
               "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg"
+            },
+            {
+              "id": 3,
+              "title": "Revolver",
+              "year": 1966,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/e/ec/Revolver_%28album_cover%29.jpg"
+            },
+            {
+              "id": 4,
+              "title": "The White Album",
+              "year": 1968,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/5/50/TheBeatles68LP.jpg"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Led Zeppelin",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Led_Zeppelin_%281975%29.jpg",
+          "albums": [
+            {
+              "id": 1,
+              "title": "Led Zeppelin IV",
+              "year": 1971,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/2/29/Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
+            },
+            {
+              "id": 2,
+              "title": "Physical Graffiti",
+              "year": 1975,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/Led_Zeppelin_-_Physical_Graffiti.jpg"
+            },
+            {
+              "id": 3,
+              "title": "Houses of the Holy",
+              "year": 1973,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/2/2c/Led_Zeppelin_-_Houses_of_the_Holy.jpg"
+            },
+            {
+              "id": 4,
+              "title": "Led Zeppelin II",
+              "year": 1969,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Pink Floyd",
+          "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg",
+          "albums": [
+            {
+              "id": 1,
+              "title": "The Dark Side of the Moon",
+              "year": 1973,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+            },
+            {
+              "id": 2,
+              "title": "The Wall",
+              "year": 1979,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/Pink_Floyd_-_The_Wall_cover.png"
+            },
+            {
+              "id": 3,
+              "title": "Wish You Were Here",
+              "year": 1975,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/Pink_Floyd_-_Wish_You_Were_Here.png"
+            },
+            {
+              "id": 4,
+              "title": "Animals",
+              "year": 1977,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/Pink_Floyd-Animals-Frontal.jpg"
             }
           ]
         }
@@ -64,6 +150,18 @@
               "title": "Lover",
               "year": 2019,
               "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Lover.png"
+            },
+            {
+              "id": 3,
+              "title": "Folklore",
+              "year": 2020,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png"
+            },
+            {
+              "id": 4,
+              "title": "Midnights",
+              "year": 2022,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png"
             }
           ]
         },
@@ -83,6 +181,80 @@
               "title": "25",
               "year": 2015,
               "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Adele_-_25_%28Official_Album_Cover%29.png"
+            },
+            {
+              "id": 3,
+              "title": "30",
+              "year": 2021,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/7/76/Adele_-_30.png"
+            },
+            {
+              "id": 4,
+              "title": "19",
+              "year": 2008,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/82/Adele_-_19.png"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Ed Sheeran",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg",
+          "albums": [
+            {
+              "id": 1,
+              "title": "÷ (Divide)",
+              "year": 2017,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png"
+            },
+            {
+              "id": 2,
+              "title": "× (Multiply)",
+              "year": 2014,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Ed_Sheeran_-_Multiply.png"
+            },
+            {
+              "id": 3,
+              "title": "= (Equals)",
+              "year": 2021,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/1/1a/Ed_Sheeran_-_Equals.png"
+            },
+            {
+              "id": 4,
+              "title": "+ (Plus)",
+              "year": 2011,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Ed_Sheeran_%2B.png"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Dua Lipa",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Dua_Lipa_2018.png",
+          "albums": [
+            {
+              "id": 1,
+              "title": "Future Nostalgia",
+              "year": 2020,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png"
+            },
+            {
+              "id": 2,
+              "title": "Dua Lipa",
+              "year": 2017,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Dua_Lipa_%28album%29.png"
+            },
+            {
+              "id": 3,
+              "title": "Radical Optimism",
+              "year": 2024,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dua_Lipa_-_Radical_Optimism.png"
+            },
+            {
+              "id": 4,
+              "title": "Club Future Nostalgia",
+              "year": 2020,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dua_Lipa_-_Club_Future_Nostalgia.png"
             }
           ]
         }
@@ -108,6 +280,18 @@
               "title": "To Pimp a Butterfly",
               "year": 2015,
               "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/To_Pimp_a_Butterfly_cover.png"
+            },
+            {
+              "id": 3,
+              "title": "good kid, m.A.A.d city",
+              "year": 2012,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/7/76/Kendrick_Lamar_-_Good_Kid_M.A.A.D_City.png"
+            },
+            {
+              "id": 4,
+              "title": "Mr. Morale & the Big Steppers",
+              "year": 2022,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/Kendrick_Lamar_-_Mr._Morale_%26_the_Big_Steppers.png"
             }
           ]
         },
@@ -127,6 +311,80 @@
               "title": "Views",
               "year": 2016,
               "cover": "https://upload.wikimedia.org/wikipedia/en/1/19/Drake_-_Views_cover.jpg"
+            },
+            {
+              "id": 3,
+              "title": "Take Care",
+              "year": 2011,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/a/ae/Drake_-_Take_Care_cover.jpg"
+            },
+            {
+              "id": 4,
+              "title": "Nothing Was the Same",
+              "year": 2013,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Drake_-_Nothing_Was_the_Same.png"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Travis Scott",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Travis_Scott_-_Openair_Frauenfeld_2019_08_01_kk_200620_%2801%29_%28cropped%29.jpg",
+          "albums": [
+            {
+              "id": 1,
+              "title": "Astroworld",
+              "year": 2018,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Travis_Scott_-_Astroworld.png"
+            },
+            {
+              "id": 2,
+              "title": "Birds in the Trap Sing McKnight",
+              "year": 2016,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png"
+            },
+            {
+              "id": 3,
+              "title": "Rodeo",
+              "year": 2015,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/3/3c/Travis_Scott_-_Rodeo.png"
+            },
+            {
+              "id": 4,
+              "title": "Utopia",
+              "year": 2023,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Travis_Scott_-_Utopia.png"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Post Malone",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Post_Malone_2019_by_Glenn_Francis_%28cropped%29.jpg",
+          "albums": [
+            {
+              "id": 1,
+              "title": "Hollywood's Bleeding",
+              "year": 2019,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_Hollywood%27s_Bleeding.png"
+            },
+            {
+              "id": 2,
+              "title": "beerbongs & bentleys",
+              "year": 2018,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_beerbongs_%26_bentleys.png"
+            },
+            {
+              "id": 3,
+              "title": "Stoney",
+              "year": 2016,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_Stoney.png"
+            },
+            {
+              "id": 4,
+              "title": "Twelve Carat Toothache",
+              "year": 2022,
+              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_Twelve_Carat_Toothache.png"
             }
           ]
         }
