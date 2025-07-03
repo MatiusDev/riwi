@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Datos - Componentes PC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    <i class="fas fa-microchip"></i> Gestión de Datos - Componentes PC
+                </h1>
+                <p class="subtitle">
+                    Demostración de Objetos, Map y Set en JavaScript
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <i class="fas fa-list"></i> Productos (Objeto)
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div id="products-object" class="content"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <i class="fas fa-unique"></i> Productos Únicos (Set)
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div id="products-set" class="content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns mt-4">
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <i class="fas fa-tags"></i> Categorías y Productos (Map)
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div id="products-map" class="content"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <i class="fas fa-terminal"></i> Consola
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <p class="has-text-grey">Abre la consola del navegador (F12) para ver los resultados de los bucles.</p>
+                                <button class="button is-info" onclick="showInConsole()">
+                                    <span class="icon">
+                                        <i class="fas fa-play"></i>
+                                    </span>
+                                    <span>Ejecutar en Consola</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Gestión de Datos</strong> - Demostración de estructuras de datos en JavaScript
+            </p>
+        </div>
+    </footer>
+
+    <script src="gestion_datos.js"></script>
+</body>
+</html>
