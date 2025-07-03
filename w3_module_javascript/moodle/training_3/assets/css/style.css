@@ -1,0 +1,23 @@
+.genre-card {
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #c74848;
+  background: #fff;
+}
+
+.artist-card {
+  transition: box-shadow 0.2s;
+  height: 100%;
+}
+.artist-card:hover {
+  box-shadow: 0 4px 16px rgba(72, 95, 199, 0.15);
+}
+
+.top-song-card {
+  margin-bottom: 1rem;
+  border-top: 3px solid #ff3860;
+  background: #fff0f6;
+}
+
+.genres-list, .top-songs-list {
+  margin-top: 1rem;
+}
