@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!--
+  Tu tarea es crear un programa que:
+1. Solicite al usuario su nombre y su edad.
+2. Valide que la edad ingresada sea un número válido.
+3. Muestre un mensaje personalizado dependiendo de la edad ingresada.
+a. Si el usuario es menor de 18, animarlo a seguir aprendiendo.
+b. Si el usuario es 18 o mayor, motivarlo para explorar nuevas oportunidades.
+4. Muestre un error si el usuario ingresa un valor no numérico para la edad.
+  -->
+    <section class="section">
+      <div class="container width-50 is-max-desktop">
+        <h1 class="title has-text-centered is-1">Sistema interactivo de mensajes</h1>
+        <div class="notification is-primary">
+          ¡Hola! Bienvenido a nuestro sistema. Por favor, ingresa tu
+          información.
+        </div>
+        <form class="box">
+          <div class="field">
+            <label class="label">Nombre:</label>
+            <div class="control">
+              <input id="name" class="input" type="text" placeholder="Ingresa tu nombre" required/>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Edad:</label>
+            <div class="control">
+              <input id="age" class="input" placeholder="Ingresa tu edad" type="text" required />
+            </div>
+          </div>
+
+          <div class="has-text-centered">
+            <button id="send" class="button is-primary" type="button">Enviar</button>
+          </div>
+        </form>
+        <div>
+          <div id="box-error" class="message-box notification is-danger"></div>
+          <div id="box-success" class="message-box notification is-success"></div>
+          <div id="box-info" class="message-box notification is-info"></div>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
