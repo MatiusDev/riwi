@@ -7,124 +7,123 @@
         {
           "id": 1,
           "name": "Queen",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Queen_%E2%80%93_montagem_%E2%80%93_new.png",
+          "image": "https://i.scdn.co/image/c06971e9ff81696699b829484e3be165f4e64368",
           "albums": [
             {
               "id": 1,
               "title": "A Night at the Opera",
               "year": 1975,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Queen_A_Night_At_The_Opera.png"
+              "cover": "https://picsum.photos/300/300?random=2"
             },
             {
               "id": 2,
               "title": "News of the World",
               "year": 1977,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/0/02/Queen_News_Of_The_World.png"
+              "cover": "https://picsum.photos/300/300?random=3"
             },
             {
               "id": 3,
               "title": "Jazz",
               "year": 1978,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/Queen_Jazz.png"
+              "cover": "https://picsum.photos/300/300?random=4"
             },
             {
               "id": 4,
               "title": "The Game",
               "year": 1980,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Queen_The_Game.png"
+              "cover": "https://picsum.photos/300/300?random=5"
             }
           ]
         },
         {
           "id": 2,
           "name": "The Beatles",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/The_Fabs.JPG",
+          "image": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
           "albums": [
             {
               "id": 1,
               "title": "Abbey Road",
               "year": 1969,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+              "cover": "https://picsum.photos/300/300?random=7"
             },
             {
               "id": 2,
               "title": "Sgt. Pepper's Lonely Hearts Club Band",
               "year": 1967,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg"
+              "cover": "https://picsum.photos/300/300?random=8"
             },
             {
               "id": 3,
               "title": "Revolver",
               "year": 1966,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/e/ec/Revolver_%28album_cover%29.jpg"
+              "cover": "https://picsum.photos/300/300?random=9"
             },
             {
               "id": 4,
               "title": "The White Album",
               "year": 1968,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/5/50/TheBeatles68LP.jpg"
+              "cover": "https://picsum.photos/300/300?random=10"
             }
           ]
         },
         {
           "id": 3,
           "name": "Led Zeppelin",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Led_Zeppelin_%281975%29.jpg",
+          "image": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8",
           "albums": [
             {
               "id": 1,
               "title": "Led Zeppelin IV",
               "year": 1971,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/2/29/Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
+              "cover": "https://picsum.photos/300/300?random=12"
             },
             {
               "id": 2,
               "title": "Physical Graffiti",
               "year": 1975,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/Led_Zeppelin_-_Physical_Graffiti.jpg"
+              "cover": "https://picsum.photos/300/300?random=13"
             },
             {
               "id": 3,
               "title": "Houses of the Holy",
-              "year": 1973,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/2/2c/Led_Zeppelin_-_Houses_of_the_Holy.jpg"
+              "year": "https://picsum.photos/300/300?random=14"
             },
             {
               "id": 4,
               "title": "Led Zeppelin II",
               "year": 1969,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg"
+              "cover": "https://picsum.photos/300/300?random=15"
             }
           ]
         },
         {
           "id": 4,
           "name": "Pink Floyd",
-          "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg",
+          "image": "https://i.scdn.co/image/f0a39a8a196a87a7236bdcf8a8708f6d5d3547cc",
           "albums": [
             {
               "id": 1,
               "title": "The Dark Side of the Moon",
               "year": 1973,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+              "cover": "https://picsum.photos/300/300?random=17"
             },
             {
               "id": 2,
               "title": "The Wall",
               "year": 1979,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/Pink_Floyd_-_The_Wall_cover.png"
+              "cover": "https://picsum.photos/300/300?random=18"
             },
             {
               "id": 3,
               "title": "Wish You Were Here",
               "year": 1975,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/Pink_Floyd_-_Wish_You_Were_Here.png"
+              "cover": "https://picsum.photos/300/300?random=19"
             },
             {
               "id": 4,
               "title": "Animals",
               "year": 1977,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/7/74/Pink_Floyd-Animals-Frontal.jpg"
+              "cover": "https://picsum.photos/300/300?random=20"
             }
           ]
         }
@@ -135,126 +134,126 @@
       "name": "Pop",
       "artists": [
         {
-          "id": 1,
+          "id": 5,
           "name": "Taylor Swift",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Taylor_Swift_Red_Tour_5%2C_2013.jpg",
+          "image": "https://i.scdn.co/image/ab67616100005174e672b5f553298dcdccb0e676",
           "albums": [
             {
               "id": 1,
               "title": "1989",
               "year": 2014,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png"
+              "cover": "https://picsum.photos/300/300?random=22"
             },
             {
               "id": 2,
               "title": "Lover",
               "year": 2019,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Lover.png"
+              "cover": "https://picsum.photos/300/300?random=23"
             },
             {
               "id": 3,
               "title": "Folklore",
               "year": 2020,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png"
+              "cover": "https://picsum.photos/300/300?random=24"
             },
             {
               "id": 4,
               "title": "Midnights",
               "year": 2022,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png"
+              "cover": "https://picsum.photos/300/300?random=25"
             }
           ]
         },
         {
-          "id": 2,
+          "id": 6,
           "name": "Adele",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Adele_2016.jpg",
+          "image": "https://i.scdn.co/image/ab6761610000517468f6e5892075d7f22615bd17",
           "albums": [
             {
               "id": 1,
               "title": "21",
               "year": 2011,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png"
+              "cover": "https://picsum.photos/300/300?random=27"
             },
             {
               "id": 2,
               "title": "25",
               "year": 2015,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Adele_-_25_%28Official_Album_Cover%29.png"
+              "cover": "https://picsum.photos/300/300?random=28"
             },
             {
               "id": 3,
               "title": "30",
               "year": 2021,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/7/76/Adele_-_30.png"
+              "cover": "https://picsum.photos/300/300?random=29"
             },
             {
               "id": 4,
               "title": "19",
               "year": 2008,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/82/Adele_-_19.png"
+              "cover": "https://picsum.photos/300/300?random=30"
             }
           ]
         },
         {
-          "id": 3,
+          "id": 7,
           "name": "Ed Sheeran",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg",
+          "image": "https://i.scdn.co/image/ab67616100005174399444ed4eace08b549d1161",
           "albums": [
             {
               "id": 1,
               "title": "÷ (Divide)",
               "year": 2017,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png"
+              "cover": "https://picsum.photos/300/300?random=32"
             },
             {
               "id": 2,
               "title": "× (Multiply)",
               "year": 2014,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Ed_Sheeran_-_Multiply.png"
+              "cover": "https://picsum.photos/300/300?random=33"
             },
             {
               "id": 3,
               "title": "= (Equals)",
               "year": 2021,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/1/1a/Ed_Sheeran_-_Equals.png"
+              "cover": "https://picsum.photos/300/300?random=34"
             },
             {
               "id": 4,
               "title": "+ (Plus)",
               "year": 2011,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Ed_Sheeran_%2B.png"
+              "cover": "https://picsum.photos/300/300?random=35"
             }
           ]
         },
         {
-          "id": 4,
+          "id": 8,
           "name": "Dua Lipa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Dua_Lipa_2018.png",
+          "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d",
           "albums": [
             {
               "id": 1,
               "title": "Future Nostalgia",
               "year": 2020,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png"
+              "cover": "https://picsum.photos/300/300?random=37"
             },
             {
               "id": 2,
               "title": "Dua Lipa",
               "year": 2017,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Dua_Lipa_%28album%29.png"
+              "cover": "https://picsum.photos/300/300?random=38"
             },
             {
               "id": 3,
               "title": "Radical Optimism",
               "year": 2024,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dua_Lipa_-_Radical_Optimism.png"
+              "cover": "https://picsum.photos/300/300?random=39"
             },
             {
               "id": 4,
               "title": "Club Future Nostalgia",
               "year": 2020,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dua_Lipa_-_Club_Future_Nostalgia.png"
+              "cover": "https://picsum.photos/300/300?random=40"
             }
           ]
         }
@@ -265,126 +264,126 @@
       "name": "Hip-Hop",
       "artists": [
         {
-          "id": 1,
+          "id": 9,
           "name": "Kendrick Lamar",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Kendrick_Lamar_2018.jpg",
+          "image": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918",
           "albums": [
             {
               "id": 1,
               "title": "DAMN.",
               "year": 2017,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png"
+              "cover": "https://picsum.photos/300/300?random=42"
             },
             {
               "id": 2,
               "title": "To Pimp a Butterfly",
               "year": 2015,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/To_Pimp_a_Butterfly_cover.png"
+              "cover": "https://picsum.photos/300/300?random=43"
             },
             {
               "id": 3,
               "title": "good kid, m.A.A.d city",
               "year": 2012,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/7/76/Kendrick_Lamar_-_Good_Kid_M.A.A.D_City.png"
+              "cover": "https://picsum.photos/300/300?random=44"
             },
             {
               "id": 4,
               "title": "Mr. Morale & the Big Steppers",
               "year": 2022,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/Kendrick_Lamar_-_Mr._Morale_%26_the_Big_Steppers.png"
+              "cover": "https://picsum.photos/300/300?random=45"
             }
           ]
         },
         {
-          "id": 2,
+          "id": 10,
           "name": "Drake",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Drake_July_2016.jpg",
+          "image": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9",
           "albums": [
             {
               "id": 1,
               "title": "Scorpion",
               "year": 2018,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg"
+              "cover": "https://picsum.photos/300/300?random=47"
             },
             {
               "id": 2,
               "title": "Views",
               "year": 2016,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/1/19/Drake_-_Views_cover.jpg"
+              "cover": "https://picsum.photos/300/300?random=48"
             },
             {
               "id": 3,
               "title": "Take Care",
               "year": 2011,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/a/ae/Drake_-_Take_Care_cover.jpg"
+              "cover": "https://picsum.photos/300/300?random=49"
             },
             {
               "id": 4,
               "title": "Nothing Was the Same",
               "year": 2013,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Drake_-_Nothing_Was_the_Same.png"
+              "cover": "https://picsum.photos/300/300?random=50"
             }
           ]
         },
         {
-          "id": 3,
+          "id": 11,
           "name": "Travis Scott",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Travis_Scott_-_Openair_Frauenfeld_2019_08_01_kk_200620_%2801%29_%28cropped%29.jpg",
+          "image": "https://i.scdn.co/image/ab6761610000517419c2790744c792d05570bb71",
           "albums": [
             {
               "id": 1,
               "title": "Astroworld",
               "year": 2018,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Travis_Scott_-_Astroworld.png"
+              "cover": "https://picsum.photos/300/300?random=52"
             },
             {
               "id": 2,
               "title": "Birds in the Trap Sing McKnight",
               "year": 2016,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png"
+              "cover": "https://picsum.photos/300/300?random=53"
             },
             {
               "id": 3,
               "title": "Rodeo",
               "year": 2015,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/3/3c/Travis_Scott_-_Rodeo.png"
+              "cover": "https://picsum.photos/300/300?random=54"
             },
             {
               "id": 4,
               "title": "Utopia",
               "year": 2023,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Travis_Scott_-_Utopia.png"
+              "cover": "https://picsum.photos/300/300?random=55"
             }
           ]
         },
         {
-          "id": 4,
+          "id": 12,
           "name": "Post Malone",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Post_Malone_2019_by_Glenn_Francis_%28cropped%29.jpg",
+          "image": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0",
           "albums": [
             {
               "id": 1,
               "title": "Hollywood's Bleeding",
               "year": 2019,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_Hollywood%27s_Bleeding.png"
+              "cover": "https://picsum.photos/300/300?random=57"
             },
             {
               "id": 2,
               "title": "beerbongs & bentleys",
               "year": 2018,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_beerbongs_%26_bentleys.png"
+              "cover": "https://picsum.photos/300/300?random=58"
             },
             {
               "id": 3,
               "title": "Stoney",
               "year": 2016,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_Stoney.png"
+              "cover": "https://picsum.photos/300/300?random=59"
             },
             {
               "id": 4,
               "title": "Twelve Carat Toothache",
               "year": 2022,
-              "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Post_Malone_-_Twelve_Carat_Toothache.png"
+              "cover": "https://picsum.photos/300/300?random=60"
             }
           ]
         }
@@ -395,76 +394,76 @@
     {
       "genre": "Rock",
       "topSongs": [
-        { "title": "Bohemian Rhapsody", "artist": "Queen", "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Queen_A_Night_At_The_Opera.png" },
-        { "title": "Stairway to Heaven", "artist": "Led Zeppelin", "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Led_Zeppelin_-_Led_Zeppelin_IV.jpg" },
-        { "title": "Hotel California", "artist": "Eagles", "cover": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg" },
-        { "title": "Sweet Child o' Mine", "artist": "Guns N' Roses", "cover": "https://upload.wikimedia.org/wikipedia/en/9/9c/GunsnRosesSweetChildO%27Mine7InchSingleCover.jpg" },
-        { "title": "Back In Black", "artist": "AC/DC", "cover": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Acdc_Back_in_Black.png" },
-        { "title": "Smoke on the Water", "artist": "Deep Purple", "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Deep_Purple_-_Machine_Head.jpg" },
-        { "title": "Another Brick in the Wall", "artist": "Pink Floyd", "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/Pink_Floyd_-_The_Wall_cover.png" },
-        { "title": "Livin' on a Prayer", "artist": "Bon Jovi", "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Bon_Jovi_-_Slippery_When_Wet.png" },
-        { "title": "Don't Stop Believin'", "artist": "Journey", "cover": "https://upload.wikimedia.org/wikipedia/en/8/8c/JourneyEscapealbumcover.jpg" },
-        { "title": "We Will Rock You", "artist": "Queen", "cover": "https://upload.wikimedia.org/wikipedia/en/0/02/Queen_News_Of_The_World.png" },
-        { "title": "Imagine", "artist": "John Lennon", "cover": "https://upload.wikimedia.org/wikipedia/en/2/25/John_Lennon_-_Imagine_John_Lennon.jpg" },
-        { "title": "Born to Run", "artist": "Bruce Springsteen", "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/Born_to_Run_(Front_Cover).jpg" },
-        { "title": "Paint It Black", "artist": "The Rolling Stones", "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Paintitblackstones.jpg" },
-        { "title": "Highway to Hell", "artist": "AC/DC", "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/Acdc_Highway_to_Hell.png" },
-        { "title": "Come Together", "artist": "The Beatles", "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" },
-        { "title": "Jump", "artist": "Van Halen", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Van_Halen_-_1984.png" },
-        { "title": "Free Bird", "artist": "Lynyrd Skynyrd", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Lynyrd_Skynyrd_-_Pronounced_L%C3%A9h-n%C3%A9rd_Skin-n%C3%A9rd.png" },
-        { "title": "Paradise City", "artist": "Guns N' Roses", "cover": "https://upload.wikimedia.org/wikipedia/en/9/9c/GunsnRosesSweetChildO%27Mine7InchSingleCover.jpg" },
-        { "title": "Dream On", "artist": "Aerosmith", "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Aerosmith_-_Aerosmith.jpg" },
-        { "title": "Under Pressure", "artist": "Queen & David Bowie", "cover": "https://upload.wikimedia.org/wikipedia/en/0/02/Queen_News_Of_The_World.png" }
+        { "title": "Bohemian Rhapsody", "artist": "Queen", "cover": "https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b" },
+        { "title": "Stairway to Heaven", "artist": "Led Zeppelin", "cover": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69" },
+        { "title": "Hotel California", "artist": "Eagles", "cover": "https://i.scdn.co/image/ab67616d00001e02d666181ad183bf7efc7f4105" },
+        { "title": "Sweet Child o' Mine", "artist": "Guns N' Roses", "cover": "https://i.scdn.co/image/ab67616d00001e0292d21aef6c0d288cc4c05973" },
+        { "title": "Back In Black", "artist": "AC/DC", "cover": "https://picsum.photos/300/300?random=65" },
+        { "title": "Smoke on the Water", "artist": "Deep Purple", "cover": "https://picsum.photos/300/300?random=66" },
+        { "title": "Another Brick in the Wall", "artist": "Pink Floyd", "cover": "https://picsum.photos/300/300?random=67" },
+        { "title": "Livin' on a Prayer", "artist": "Bon Jovi", "cover": "https://picsum.photos/300/300?random=68" },
+        { "title": "Don't Stop Believin'", "artist": "Journey", "cover": "https://picsum.photos/300/300?random=69" },
+        { "title": "We Will Rock You", "artist": "Queen", "cover": "https://picsum.photos/300/300?random=70" },
+        { "title": "Imagine", "artist": "John Lennon", "cover": "https://picsum.photos/300/300?random=71" },
+        { "title": "Born to Run", "artist": "Bruce Springsteen", "cover": "https://picsum.photos/300/300?random=72" },
+        { "title": "Paint It Black", "artist": "The Rolling Stones", "cover": "https://picsum.photos/300/300?random=73" },
+        { "title": "Highway to Hell", "artist": "AC/DC", "cover": "https://picsum.photos/300/300?random=74" },
+        { "title": "Come Together", "artist": "The Beatles", "cover": "https://picsum.photos/300/300?random=75" },
+        { "title": "Jump", "artist": "Van Halen", "cover": "https://picsum.photos/300/300?random=76" },
+        { "title": "Free Bird", "artist": "Lynyrd Skynyrd", "cover": "https://picsum.photos/300/300?random=77" },
+        { "title": "Paradise City", "artist": "Guns N' Roses", "cover": "https://picsum.photos/300/300?random=78" },
+        { "title": "Dream On", "artist": "Aerosmith", "cover": "https://picsum.photos/300/300?random=79" },
+        { "title": "Under Pressure", "artist": "Queen & David Bowie", "cover": "https://picsum.photos/300/300?random=80" }
       ]
     },
     {
       "genre": "Pop",
       "topSongs": [
-        { "title": "Shape of You", "artist": "Ed Sheeran", "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png" },
-        { "title": "Blinding Lights", "artist": "The Weeknd", "cover": "https://upload.wikimedia.org/wikipedia/en/0/09/The_Weeknd_-_Blinding_Lights.png" },
-        { "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/Mark_Ronson_-_Uptown_Funk_%28feat._Bruno_Mars%29.png" },
-        { "title": "Bad Guy", "artist": "Billie Eilish", "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Bad_Guy_by_Billie_Eilish.png" },
-        { "title": "Sorry", "artist": "Justin Bieber", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png" },
-        { "title": "Roar", "artist": "Katy Perry", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Katy_Perry_-_Prism_cover.png" },
-        { "title": "Shake It Off", "artist": "Taylor Swift", "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png" },
-        { "title": "Firework", "artist": "Katy Perry", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Katy_Perry_-_Teenage_Dream_album_cover.png" },
-        { "title": "Havana", "artist": "Camila Cabello ft. Young Thug", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Camila_Cabello_-_Havana.png" },
-        { "title": "All About That Bass", "artist": "Meghan Trainor", "cover": "https://upload.wikimedia.org/wikipedia/en/3/3e/Meghan_Trainor_-_All_About_That_Bass.png" },
-        { "title": "Can't Stop the Feeling!", "artist": "Justin Timberlake", "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Justin_Timberlake_-_Can%27t_Stop_the_Feeling.png" },
-        { "title": "Hello", "artist": "Adele", "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/Adele_-_Hello_%28Official_Single_Cover%29.png" },
-        { "title": "Levitating", "artist": "Dua Lipa", "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png" },
-        { "title": "Thank U, Next", "artist": "Ariana Grande", "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Ariana_Grande_-_Thank_U%2C_Next_%28album%29.png" },
-        { "title": "Shallow", "artist": "Lady Gaga & Bradley Cooper", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Lady_Gaga_and_Bradley_Cooper_-_Shallow.png" },
-        { "title": "Love Yourself", "artist": "Justin Bieber", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png" },
-        { "title": "Blank Space", "artist": "Taylor Swift", "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png" },
-        { "title": "Cheap Thrills", "artist": "Sia ft. Sean Paul", "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Sia_-_Cheap_Thrills.png" },
-        { "title": "Senorita", "artist": "Shawn Mendes & Camila Cabello", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Shawn_Mendes_and_Camila_Cabello_-_Se%C3%B1orita.png" },
-        { "title": "Someone Like You", "artist": "Adele", "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png" }
+        { "title": "Shape of You", "artist": "Ed Sheeran", "cover": "https://picsum.photos/300/300?random=81" },
+        { "title": "Blinding Lights", "artist": "The Weeknd", "cover": "https://picsum.photos/300/300?random=82" },
+        { "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "cover": "https://picsum.photos/300/300?random=83" },
+        { "title": "Bad Guy", "artist": "Billie Eilish", "cover": "https://picsum.photos/300/300?random=84" },
+        { "title": "Sorry", "artist": "Justin Bieber", "cover": "https://picsum.photos/300/300?random=85" },
+        { "title": "Roar", "artist": "Katy Perry", "cover": "https://picsum.photos/300/300?random=86" },
+        { "title": "Shake It Off", "artist": "Taylor Swift", "cover": "https://picsum.photos/300/300?random=87" },
+        { "title": "Firework", "artist": "Katy Perry", "cover": "https://picsum.photos/300/300?random=88" },
+        { "title": "Havana", "artist": "Camila Cabello ft. Young Thug", "cover": "https://picsum.photos/300/300?random=89" },
+        { "title": "All About That Bass", "artist": "Meghan Trainor", "cover": "https://picsum.photos/300/300?random=90" },
+        { "title": "Can't Stop the Feeling!", "artist": "Justin Timberlake", "cover": "https://picsum.photos/300/300?random=91" },
+        { "title": "Hello", "artist": "Adele", "cover": "https://picsum.photos/300/300?random=92" },
+        { "title": "Levitating", "artist": "Dua Lipa", "cover": "https://picsum.photos/300/300?random=93" },
+        { "title": "Thank U, Next", "artist": "Ariana Grande", "cover": "https://picsum.photos/300/300?random=94" },
+        { "title": "Shallow", "artist": "Lady Gaga & Bradley Cooper", "cover": "https://picsum.photos/300/300?random=95" },
+        { "title": "Love Yourself", "artist": "Justin Bieber", "cover": "https://picsum.photos/300/300?random=96" },
+        { "title": "Blank Space", "artist": "Taylor Swift", "cover": "https://picsum.photos/300/300?random=97" },
+        { "title": "Cheap Thrills", "artist": "Sia ft. Sean Paul", "cover": "https://picsum.photos/300/300?random=98" },
+        { "title": "Senorita", "artist": "Shawn Mendes & Camila Cabello", "cover": "https://picsum.photos/300/300?random=99" },
+        { "title": "Someone Like You", "artist": "Adele", "cover": "https://picsum.photos/300/300?random=100" }
       ]
     },
     {
       "genre": "Hip-Hop",
       "topSongs": [
-        { "title": "God's Plan", "artist": "Drake", "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg" },
-        { "title": "SICKO MODE", "artist": "Travis Scott", "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Travis_Scott_-_Astroworld.png" },
-        { "title": "HUMBLE.", "artist": "Kendrick Lamar", "cover": "https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png" },
-        { "title": "Old Town Road", "artist": "Lil Nas X", "cover": "https://upload.wikimedia.org/wikipedia/en/6/60/Lil_Nas_X_-_Old_Town_Road.png" },
-        { "title": "Rockstar", "artist": "Post Malone ft. 21 Savage", "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/Post_Malone_-_Rockstar.png" },
-        { "title": "Lucid Dreams", "artist": "Juice WRLD", "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/Juice_Wrld_-_Lucid_Dreams.png" },
-        { "title": "Suge", "artist": "DaBaby", "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/DaBaby_-_Suge.png" },
-        { "title": "In My Feelings", "artist": "Drake", "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg" },
-        { "title": "XO TOUR Llif3", "artist": "Lil Uzi Vert", "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Lil_Uzi_Vert_-_XO_TOUR_Llif3.png" },
-        { "title": "Goosebumps", "artist": "Travis Scott", "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png" },
-        { "title": "Nonstop", "artist": "Drake", "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg" },
-        { "title": "Money Trees", "artist": "Kendrick Lamar", "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/To_Pimp_a_Butterfly_cover.png" },
-        { "title": "Mask Off", "artist": "Future", "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Future_-_Mask_Off.png" },
-        { "title": "The Box", "artist": "Roddy Ricch", "cover": "https://upload.wikimedia.org/wikipedia/en/2/2d/Roddy_Ricch_-_Please_Excuse_Me_for_Being_Antisocial.png" },
-        { "title": "DNA.", "artist": "Kendrick Lamar", "cover": "https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png" },
-        { "title": "Laugh Now Cry Later", "artist": "Drake ft. Lil Durk", "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg" },
-        { "title": "Life Is Good", "artist": "Future ft. Drake", "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/Future_-_Life_Is_Good.png" },
-        { "title": "Hotline Bling", "artist": "Drake", "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg" },
-        { "title": "Congratulations", "artist": "Post Malone ft. Quavo", "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/Post_Malone_-_Congratulations.png" },
-        { "title": "Lose Yourself", "artist": "Eminem", "cover": "https://upload.wikimedia.org/wikipedia/en/8/8b/Eminem_-_Lose_Yourself.png" }
+        { "title": "God's Plan", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=101" },
+        { "title": "SICKO MODE", "artist": "Travis Scott", "cover": "https://picsum.photos/300/300?random=102" },
+        { "title": "HUMBLE.", "artist": "Kendrick Lamar", "cover": "https://picsum.photos/300/300?random=103" },
+        { "title": "Old Town Road", "artist": "Lil Nas X", "cover": "https://picsum.photos/300/300?random=104" },
+        { "title": "Rockstar", "artist": "Post Malone ft. 21 Savage", "cover": "https://picsum.photos/300/300?random=105" },
+        { "title": "Lucid Dreams", "artist": "Juice WRLD", "cover": "https://picsum.photos/300/300?random=106" },
+        { "title": "Suge", "artist": "DaBaby", "cover": "https://picsum.photos/300/300?random=107" },
+        { "title": "In My Feelings", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=108" },
+        { "title": "XO TOUR Llif3", "artist": "Lil Uzi Vert", "cover": "https://picsum.photos/300/300?random=109" },
+        { "title": "Goosebumps", "artist": "Travis Scott", "cover": "https://picsum.photos/300/300?random=110" },
+        { "title": "Nonstop", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=111" },
+        { "title": "Money Trees", "artist": "Kendrick Lamar", "cover": "https://picsum.photos/300/300?random=112" },
+        { "title": "Mask Off", "artist": "Future", "cover": "https://picsum.photos/300/300?random=113" },
+        { "title": "The Box", "artist": "Roddy Ricch", "cover": "https://picsum.photos/300/300?random=114" },
+        { "title": "DNA.", "artist": "Kendrick Lamar", "cover": "https://picsum.photos/300/300?random=115" },
+        { "title": "Laugh Now Cry Later", "artist": "Drake ft. Lil Durk", "cover": "https://picsum.photos/300/300?random=116" },
+        { "title": "Life Is Good", "artist": "Future ft. Drake", "cover": "https://picsum.photos/300/300?random=117" },
+        { "title": "Hotline Bling", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=118" },
+        { "title": "Congratulations", "artist": "Post Malone ft. Quavo", "cover": "https://picsum.photos/300/300?random=119" },
+        { "title": "Lose Yourself", "artist": "Eminem", "cover": "https://picsum.photos/300/300?random=120" }
       ]
     }
   ]

@@ -6,6 +6,7 @@
   <title>Songster</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
   <section class="section">
@@ -20,34 +21,35 @@
         <!-- Sección Top Canciones -->
         <div class="column">
           <h2 class="subtitle is-3 has-text-centered">Top Canciones</h2>
-          <div class="top-songs-list">
-            <div class="card top-song-card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Queen_A_Night_At_The_Opera.png" alt="Bohemian Rhapsody">
-                </figure>
-              </div>
-              <div class="card-content">
-                <p class="title is-6">Bohemian Rhapsody</p>
-                <p class="subtitle is-7">Queen</p>
-              </div>
-            </div>
-            <div class="card top-song-card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" alt="Come Together">
-                </figure>
-              </div>
-              <div class="card-content">
-                <p class="title is-6">Come Together</p>
-                <p class="subtitle is-7">The Beatles</p>
-              </div>
-            </div>
-          </div>
+          <div class="top-songs-list"></div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Modal para actualizar género -->
+  <div id="updateGenreModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Actualizar Género</p>
+        <button class="delete" aria-label="close" id="closeGenreModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="field">
+          <label class="label">Nuevo nombre del género</label>
+          <div class="control">
+            <input class="input" type="text" id="newGenreNameInput" placeholder="Nombre del género">
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" id="saveGenreChanges">Guardar cambios</button>
+        <button class="button" id="cancelGenreChanges">Cancelar</button>
+      </footer>
+    </div>
+  </div>
+
   <script src="./app.js" type="module"></script>  
 </body>
 </html>

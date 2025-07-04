@@ -18,6 +18,36 @@
   background: #fff0f6;
 }
 
+.card-footer {
+  margin-top: 20px;
+}
+
 .genres-list, .top-songs-list {
   margin-top: 1rem;
+}
+
+.btnGenreUpdate {
+  background-color: #505dd3;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnGenreUpdate:hover {
+  background-color: #3741a3;
+}
+
+.btnGenreDelete {
+  background-color: #ff3860;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnGenreDelete:hover {
+  background-color: #e03550;
 }

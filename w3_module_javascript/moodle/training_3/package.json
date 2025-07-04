@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "json-server --watch assets/db/db.json",
+    "server": "json-server --watch assets/db/db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
