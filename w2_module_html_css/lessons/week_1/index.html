@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptoview</title>
+</head>
+<body>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #13131b;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          color: #ffb658;
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    #home {
+      min-width: 100vw;
+      min-height: 60vh;
+      position: relative;
+      background-color: #664b2d;
+
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+      }
+
+      div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+
+        audio {
+          width: 100%;
+          margin-top: 1rem;
+          background-color: #13131b;
+          border-radius: 1rem;
+          padding: 10px 0px;
+        } 
+      }
+    }
+
+    #top-coins, #st-coins, #meme-coins {
+      min-width: 100vw;
+      min-height: 100vh;
+
+      h1 {
+        text-align: center;
+        font-size: 2.7rem;
+        margin: 1.5rem 0;
+      }
+
+      img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+      }
+
+      table {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 1rem;
+        padding: 10px 0px;
+
+        td {
+          text-align: center;
+        }
+      }
+    }
+
+    #top-coins {
+      background-color: #13131b;
+      color: #fff;
+
+      h1 {
+        color: #ffb658;
+      }
+
+      table {
+        background-color: #192b24;
+      }
+
+      thead {
+        color: #7ad284;
+        font-size: 1.2rem;
+      }
+    }
+
+    #st-coins {
+      background-color: #172435;
+      color: #fff;
+
+      h1 {
+        color: #ffb658;
+      }
+
+      table {
+        background-color: #27485c;
+      }
+
+      thead {
+        color: #57a2f2;
+        font-size: 1.2rem;
+      }
+    }
+
+    #meme-coins {
+      background-color: #7203b1;
+      color: #fff;
+
+      h1 {
+        color: #ffb658;
+      }
+
+      table {
+        background-color: #652e6d;
+      }
+
+      thead {
+        color: pink;
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+
+  <main>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#top-coins">Top 10 criptomonedas más usadas</a>
+      <a href="#st-coins">Monedas Estables</a>
+      <a href="#meme-coins">Monedas Meme</a>
+    </nav>
+
+    <section id="home">
+      <img src="assets/img/cripto.jpg" alt="Critomonedas">
+      <div>
+        <audio controls>
+          <source src="assets/audio/audio_3.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </section>
+  
+    <section id="top-coins">
+      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2F4NGY0YTFkMDR2dnY0bDR1MWZnOWlzdXNvNm82aWg5NTlpZGg3OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XomjqLgZNRii8bwDUu/giphy.gif" alt="Bitcoin gif" >
+      <h1>Top 10 criptomonedas más usadas</h1>
+      <audio controls>
+        <source src="assets/audio/audio_4.mp3" type="audio/mpeg">
+      </audio>
+  
+      <table>
+        <thead>
+          <th>Criptomoneda</th>
+          <th>Precio</th>
+          <th>1h %</th>
+          <th>24h %</th>
+          <th>7d %</th>
+          <th>Capital de mercado</th>
+          <th>Volumen (24h)</th>
+          <th>Suministro circulante</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  
+    <section id="st-coins">
+      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXIxYTVzMndqMWF6dHp2OGl5dnhveTBiZ3Fkd2kxbWo4a25jNmpyYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I10KytTeZnk2VWsFqc/giphy.gif" alt="Stable gif" >
+      <h1>Criptomonedas estables</h1>
+      <audio controls>
+        <source src="assets/audio/audio_1.mp3" type="audio/mpeg">
+      </audio>
+      <table>
+        <thead>
+          <th>Criptomoneda</th>
+          <th>Precio</th>
+          <th>1h %</th>
+          <th>24h %</th>
+          <th>7d %</th>
+          <th>Capital de mercado</th>
+          <th>Volumen (24h)</th>
+          <th>Suministro circulante</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  
+    <section id="meme-coins">
+      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExanlvMXAwOWN5a2Rtbmtmb205dnh5OXR6OG1oaHl3bHNld202NGNxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VRKheDy4DkBMrQm66p/giphy.gif" alt="Meme gif">
+      <h1>Criptomonedas Meme</h1>
+      <audio controls>
+        <source src="assets/audio/audio_2.mp3" type="audio/mpeg">
+      </audio>
+      <table>
+        <thead>
+          <th>Criptomoneda</th>
+          <th>Precio</th>
+          <th>1h %</th>
+          <th>24h %</th>
+          <th>7d %</th>
+          <th>Capital de mercado</th>
+          <th>Volumen (24h)</th>
+          <th>Suministro circulante</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+          <tr>
+            <td>Bitcoin <small>BTC</small></td>
+            <td>$106,131.62</td>
+            <td>0.10%</td>
+            <td>1.00%</td>
+            <td>3.56%</td>
+            <td>$2,109,160,216,807</td>
+            <td>
+              <span>$61,609,285,174</span>
+              <p>580.94K BTC</p>
+            </td>
+            <td>19.86M BTC</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+  <!-- Gif, audio -->
+  <audio controls>
+    <source src="assets/audio/audio_5.mp3" type="audio/mpeg">
+  </audio>
+  
+</body>
+</html>

@@ -7,3 +7,12 @@
 [submodule "w3_module_javascript/lessons/crudzocial"]
 	path = w3_module_javascript/lessons/crudzocial
 	url = https://github.com/MatiusDev/crudzocial.git
+[submodule "w2_module_html_css/lessons/pizzeria-alcapone"]
+	path = w2_module_html_css/lessons/pizzeria-alcapone
+	url = https://github.com/MatiusDev/pizzeria-alcapone.git
+[submodule "w2_module_html_css/moodle/portafolio"]
+	path = w2_module_html_css/moodle/portafolio
+	url = https://github.com/MatiusDev/portfolio-riwi.git
+[submodule "w2_module_html_css/moodle/spotify"]
+	path = w2_module_html_css/moodle/spotify
+	url = https://github.com/MatiusDev/spotify.git
