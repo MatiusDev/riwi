@@ -1,11 +1,11 @@
 [submodule "w1_module_python/w1_lessons/02_excersices"]
 	path = w1_module_python/w1_lessons/02_excersices
 	url = https://github.com/MatiusDev/python-excersices.git
-[submodule "w3_module_javascript/lessons/crudy"]
-	path = w3_module_javascript/lessons/crudy
+[submodule "w3_module_js/lessons/crudy"]
+	path = w3_module_js/lessons/crudy
 	url = https://github.com/MatiusDev/crudy.git
-[submodule "w3_module_javascript/lessons/crudzocial"]
-	path = w3_module_javascript/lessons/crudzocial
+[submodule "w3_module_js/lessons/crudzocial"]
+	path = w3_module_js/lessons/crudzocial
 	url = https://github.com/MatiusDev/crudzocial.git
 [submodule "w2_module_html_css/lessons/pizzeria-alcapone"]
 	path = w2_module_html_css/lessons/pizzeria-alcapone
