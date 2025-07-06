@@ -1,470 +1,133 @@
 {
-  "genres": [
-    {
-      "id": 1,
-      "name": "Rock",
-      "artists": [
-        {
-          "id": 1,
-          "name": "Queen",
-          "image": "https://i.scdn.co/image/c06971e9ff81696699b829484e3be165f4e64368",
-          "albums": [
-            {
-              "id": 1,
-              "title": "A Night at the Opera",
-              "year": 1975,
-              "cover": "https://picsum.photos/300/300?random=2"
-            },
-            {
-              "id": 2,
-              "title": "News of the World",
-              "year": 1977,
-              "cover": "https://picsum.photos/300/300?random=3"
-            },
-            {
-              "id": 3,
-              "title": "Jazz",
-              "year": 1978,
-              "cover": "https://picsum.photos/300/300?random=4"
-            },
-            {
-              "id": 4,
-              "title": "The Game",
-              "year": 1980,
-              "cover": "https://picsum.photos/300/300?random=5"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "The Beatles",
-          "image": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
-          "albums": [
-            {
-              "id": 1,
-              "title": "Abbey Road",
-              "year": 1969,
-              "cover": "https://picsum.photos/300/300?random=7"
-            },
-            {
-              "id": 2,
-              "title": "Sgt. Pepper's Lonely Hearts Club Band",
-              "year": 1967,
-              "cover": "https://picsum.photos/300/300?random=8"
-            },
-            {
-              "id": 3,
-              "title": "Revolver",
-              "year": 1966,
-              "cover": "https://picsum.photos/300/300?random=9"
-            },
-            {
-              "id": 4,
-              "title": "The White Album",
-              "year": 1968,
-              "cover": "https://picsum.photos/300/300?random=10"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Led Zeppelin",
-          "image": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8",
-          "albums": [
-            {
-              "id": 1,
-              "title": "Led Zeppelin IV",
-              "year": 1971,
-              "cover": "https://picsum.photos/300/300?random=12"
-            },
-            {
-              "id": 2,
-              "title": "Physical Graffiti",
-              "year": 1975,
-              "cover": "https://picsum.photos/300/300?random=13"
-            },
-            {
-              "id": 3,
-              "title": "Houses of the Holy",
-              "year": "https://picsum.photos/300/300?random=14"
-            },
-            {
-              "id": 4,
-              "title": "Led Zeppelin II",
-              "year": 1969,
-              "cover": "https://picsum.photos/300/300?random=15"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "name": "Pink Floyd",
-          "image": "https://i.scdn.co/image/f0a39a8a196a87a7236bdcf8a8708f6d5d3547cc",
-          "albums": [
-            {
-              "id": 1,
-              "title": "The Dark Side of the Moon",
-              "year": 1973,
-              "cover": "https://picsum.photos/300/300?random=17"
-            },
-            {
-              "id": 2,
-              "title": "The Wall",
-              "year": 1979,
-              "cover": "https://picsum.photos/300/300?random=18"
-            },
-            {
-              "id": 3,
-              "title": "Wish You Were Here",
-              "year": 1975,
-              "cover": "https://picsum.photos/300/300?random=19"
-            },
-            {
-              "id": 4,
-              "title": "Animals",
-              "year": 1977,
-              "cover": "https://picsum.photos/300/300?random=20"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Pop",
-      "artists": [
-        {
-          "id": 5,
-          "name": "Taylor Swift",
-          "image": "https://i.scdn.co/image/ab67616100005174e672b5f553298dcdccb0e676",
-          "albums": [
-            {
-              "id": 1,
-              "title": "1989",
-              "year": 2014,
-              "cover": "https://picsum.photos/300/300?random=22"
-            },
-            {
-              "id": 2,
-              "title": "Lover",
-              "year": 2019,
-              "cover": "https://picsum.photos/300/300?random=23"
-            },
-            {
-              "id": 3,
-              "title": "Folklore",
-              "year": 2020,
-              "cover": "https://picsum.photos/300/300?random=24"
-            },
-            {
-              "id": 4,
-              "title": "Midnights",
-              "year": 2022,
-              "cover": "https://picsum.photos/300/300?random=25"
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "name": "Adele",
-          "image": "https://i.scdn.co/image/ab6761610000517468f6e5892075d7f22615bd17",
-          "albums": [
-            {
-              "id": 1,
-              "title": "21",
-              "year": 2011,
-              "cover": "https://picsum.photos/300/300?random=27"
-            },
-            {
-              "id": 2,
-              "title": "25",
-              "year": 2015,
-              "cover": "https://picsum.photos/300/300?random=28"
-            },
-            {
-              "id": 3,
-              "title": "30",
-              "year": 2021,
-              "cover": "https://picsum.photos/300/300?random=29"
-            },
-            {
-              "id": 4,
-              "title": "19",
-              "year": 2008,
-              "cover": "https://picsum.photos/300/300?random=30"
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "name": "Ed Sheeran",
-          "image": "https://i.scdn.co/image/ab67616100005174399444ed4eace08b549d1161",
-          "albums": [
-            {
-              "id": 1,
-              "title": "÷ (Divide)",
-              "year": 2017,
-              "cover": "https://picsum.photos/300/300?random=32"
-            },
-            {
-              "id": 2,
-              "title": "× (Multiply)",
-              "year": 2014,
-              "cover": "https://picsum.photos/300/300?random=33"
-            },
-            {
-              "id": 3,
-              "title": "= (Equals)",
-              "year": 2021,
-              "cover": "https://picsum.photos/300/300?random=34"
-            },
-            {
-              "id": 4,
-              "title": "+ (Plus)",
-              "year": 2011,
-              "cover": "https://picsum.photos/300/300?random=35"
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "name": "Dua Lipa",
-          "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d",
-          "albums": [
-            {
-              "id": 1,
-              "title": "Future Nostalgia",
-              "year": 2020,
-              "cover": "https://picsum.photos/300/300?random=37"
-            },
-            {
-              "id": 2,
-              "title": "Dua Lipa",
-              "year": 2017,
-              "cover": "https://picsum.photos/300/300?random=38"
-            },
-            {
-              "id": 3,
-              "title": "Radical Optimism",
-              "year": 2024,
-              "cover": "https://picsum.photos/300/300?random=39"
-            },
-            {
-              "id": 4,
-              "title": "Club Future Nostalgia",
-              "year": 2020,
-              "cover": "https://picsum.photos/300/300?random=40"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Hip-Hop",
-      "artists": [
-        {
-          "id": 9,
-          "name": "Kendrick Lamar",
-          "image": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918",
-          "albums": [
-            {
-              "id": 1,
-              "title": "DAMN.",
-              "year": 2017,
-              "cover": "https://picsum.photos/300/300?random=42"
-            },
-            {
-              "id": 2,
-              "title": "To Pimp a Butterfly",
-              "year": 2015,
-              "cover": "https://picsum.photos/300/300?random=43"
-            },
-            {
-              "id": 3,
-              "title": "good kid, m.A.A.d city",
-              "year": 2012,
-              "cover": "https://picsum.photos/300/300?random=44"
-            },
-            {
-              "id": 4,
-              "title": "Mr. Morale & the Big Steppers",
-              "year": 2022,
-              "cover": "https://picsum.photos/300/300?random=45"
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "name": "Drake",
-          "image": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9",
-          "albums": [
-            {
-              "id": 1,
-              "title": "Scorpion",
-              "year": 2018,
-              "cover": "https://picsum.photos/300/300?random=47"
-            },
-            {
-              "id": 2,
-              "title": "Views",
-              "year": 2016,
-              "cover": "https://picsum.photos/300/300?random=48"
-            },
-            {
-              "id": 3,
-              "title": "Take Care",
-              "year": 2011,
-              "cover": "https://picsum.photos/300/300?random=49"
-            },
-            {
-              "id": 4,
-              "title": "Nothing Was the Same",
-              "year": 2013,
-              "cover": "https://picsum.photos/300/300?random=50"
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "name": "Travis Scott",
-          "image": "https://i.scdn.co/image/ab6761610000517419c2790744c792d05570bb71",
-          "albums": [
-            {
-              "id": 1,
-              "title": "Astroworld",
-              "year": 2018,
-              "cover": "https://picsum.photos/300/300?random=52"
-            },
-            {
-              "id": 2,
-              "title": "Birds in the Trap Sing McKnight",
-              "year": 2016,
-              "cover": "https://picsum.photos/300/300?random=53"
-            },
-            {
-              "id": 3,
-              "title": "Rodeo",
-              "year": 2015,
-              "cover": "https://picsum.photos/300/300?random=54"
-            },
-            {
-              "id": 4,
-              "title": "Utopia",
-              "year": 2023,
-              "cover": "https://picsum.photos/300/300?random=55"
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "Post Malone",
-          "image": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0",
-          "albums": [
-            {
-              "id": 1,
-              "title": "Hollywood's Bleeding",
-              "year": 2019,
-              "cover": "https://picsum.photos/300/300?random=57"
-            },
-            {
-              "id": 2,
-              "title": "beerbongs & bentleys",
-              "year": 2018,
-              "cover": "https://picsum.photos/300/300?random=58"
-            },
-            {
-              "id": 3,
-              "title": "Stoney",
-              "year": 2016,
-              "cover": "https://picsum.photos/300/300?random=59"
-            },
-            {
-              "id": 4,
-              "title": "Twelve Carat Toothache",
-              "year": 2022,
-              "cover": "https://picsum.photos/300/300?random=60"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "songs": [
-    {
-      "genre": "Rock",
-      "topSongs": [
-        { "title": "Bohemian Rhapsody", "artist": "Queen", "cover": "https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b" },
-        { "title": "Stairway to Heaven", "artist": "Led Zeppelin", "cover": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69" },
-        { "title": "Hotel California", "artist": "Eagles", "cover": "https://i.scdn.co/image/ab67616d00001e02d666181ad183bf7efc7f4105" },
-        { "title": "Sweet Child o' Mine", "artist": "Guns N' Roses", "cover": "https://i.scdn.co/image/ab67616d00001e0292d21aef6c0d288cc4c05973" },
-        { "title": "Back In Black", "artist": "AC/DC", "cover": "https://picsum.photos/300/300?random=65" },
-        { "title": "Smoke on the Water", "artist": "Deep Purple", "cover": "https://picsum.photos/300/300?random=66" },
-        { "title": "Another Brick in the Wall", "artist": "Pink Floyd", "cover": "https://picsum.photos/300/300?random=67" },
-        { "title": "Livin' on a Prayer", "artist": "Bon Jovi", "cover": "https://picsum.photos/300/300?random=68" },
-        { "title": "Don't Stop Believin'", "artist": "Journey", "cover": "https://picsum.photos/300/300?random=69" },
-        { "title": "We Will Rock You", "artist": "Queen", "cover": "https://picsum.photos/300/300?random=70" },
-        { "title": "Imagine", "artist": "John Lennon", "cover": "https://picsum.photos/300/300?random=71" },
-        { "title": "Born to Run", "artist": "Bruce Springsteen", "cover": "https://picsum.photos/300/300?random=72" },
-        { "title": "Paint It Black", "artist": "The Rolling Stones", "cover": "https://picsum.photos/300/300?random=73" },
-        { "title": "Highway to Hell", "artist": "AC/DC", "cover": "https://picsum.photos/300/300?random=74" },
-        { "title": "Come Together", "artist": "The Beatles", "cover": "https://picsum.photos/300/300?random=75" },
-        { "title": "Jump", "artist": "Van Halen", "cover": "https://picsum.photos/300/300?random=76" },
-        { "title": "Free Bird", "artist": "Lynyrd Skynyrd", "cover": "https://picsum.photos/300/300?random=77" },
-        { "title": "Paradise City", "artist": "Guns N' Roses", "cover": "https://picsum.photos/300/300?random=78" },
-        { "title": "Dream On", "artist": "Aerosmith", "cover": "https://picsum.photos/300/300?random=79" },
-        { "title": "Under Pressure", "artist": "Queen & David Bowie", "cover": "https://picsum.photos/300/300?random=80" }
-      ]
-    },
-    {
-      "genre": "Pop",
-      "topSongs": [
-        { "title": "Shape of You", "artist": "Ed Sheeran", "cover": "https://picsum.photos/300/300?random=81" },
-        { "title": "Blinding Lights", "artist": "The Weeknd", "cover": "https://picsum.photos/300/300?random=82" },
-        { "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "cover": "https://picsum.photos/300/300?random=83" },
-        { "title": "Bad Guy", "artist": "Billie Eilish", "cover": "https://picsum.photos/300/300?random=84" },
-        { "title": "Sorry", "artist": "Justin Bieber", "cover": "https://picsum.photos/300/300?random=85" },
-        { "title": "Roar", "artist": "Katy Perry", "cover": "https://picsum.photos/300/300?random=86" },
-        { "title": "Shake It Off", "artist": "Taylor Swift", "cover": "https://picsum.photos/300/300?random=87" },
-        { "title": "Firework", "artist": "Katy Perry", "cover": "https://picsum.photos/300/300?random=88" },
-        { "title": "Havana", "artist": "Camila Cabello ft. Young Thug", "cover": "https://picsum.photos/300/300?random=89" },
-        { "title": "All About That Bass", "artist": "Meghan Trainor", "cover": "https://picsum.photos/300/300?random=90" },
-        { "title": "Can't Stop the Feeling!", "artist": "Justin Timberlake", "cover": "https://picsum.photos/300/300?random=91" },
-        { "title": "Hello", "artist": "Adele", "cover": "https://picsum.photos/300/300?random=92" },
-        { "title": "Levitating", "artist": "Dua Lipa", "cover": "https://picsum.photos/300/300?random=93" },
-        { "title": "Thank U, Next", "artist": "Ariana Grande", "cover": "https://picsum.photos/300/300?random=94" },
-        { "title": "Shallow", "artist": "Lady Gaga & Bradley Cooper", "cover": "https://picsum.photos/300/300?random=95" },
-        { "title": "Love Yourself", "artist": "Justin Bieber", "cover": "https://picsum.photos/300/300?random=96" },
-        { "title": "Blank Space", "artist": "Taylor Swift", "cover": "https://picsum.photos/300/300?random=97" },
-        { "title": "Cheap Thrills", "artist": "Sia ft. Sean Paul", "cover": "https://picsum.photos/300/300?random=98" },
-        { "title": "Senorita", "artist": "Shawn Mendes & Camila Cabello", "cover": "https://picsum.photos/300/300?random=99" },
-        { "title": "Someone Like You", "artist": "Adele", "cover": "https://picsum.photos/300/300?random=100" }
-      ]
-    },
-    {
-      "genre": "Hip-Hop",
-      "topSongs": [
-        { "title": "God's Plan", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=101" },
-        { "title": "SICKO MODE", "artist": "Travis Scott", "cover": "https://picsum.photos/300/300?random=102" },
-        { "title": "HUMBLE.", "artist": "Kendrick Lamar", "cover": "https://picsum.photos/300/300?random=103" },
-        { "title": "Old Town Road", "artist": "Lil Nas X", "cover": "https://picsum.photos/300/300?random=104" },
-        { "title": "Rockstar", "artist": "Post Malone ft. 21 Savage", "cover": "https://picsum.photos/300/300?random=105" },
-        { "title": "Lucid Dreams", "artist": "Juice WRLD", "cover": "https://picsum.photos/300/300?random=106" },
-        { "title": "Suge", "artist": "DaBaby", "cover": "https://picsum.photos/300/300?random=107" },
-        { "title": "In My Feelings", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=108" },
-        { "title": "XO TOUR Llif3", "artist": "Lil Uzi Vert", "cover": "https://picsum.photos/300/300?random=109" },
-        { "title": "Goosebumps", "artist": "Travis Scott", "cover": "https://picsum.photos/300/300?random=110" },
-        { "title": "Nonstop", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=111" },
-        { "title": "Money Trees", "artist": "Kendrick Lamar", "cover": "https://picsum.photos/300/300?random=112" },
-        { "title": "Mask Off", "artist": "Future", "cover": "https://picsum.photos/300/300?random=113" },
-        { "title": "The Box", "artist": "Roddy Ricch", "cover": "https://picsum.photos/300/300?random=114" },
-        { "title": "DNA.", "artist": "Kendrick Lamar", "cover": "https://picsum.photos/300/300?random=115" },
-        { "title": "Laugh Now Cry Later", "artist": "Drake ft. Lil Durk", "cover": "https://picsum.photos/300/300?random=116" },
-        { "title": "Life Is Good", "artist": "Future ft. Drake", "cover": "https://picsum.photos/300/300?random=117" },
-        { "title": "Hotline Bling", "artist": "Drake", "cover": "https://picsum.photos/300/300?random=118" },
-        { "title": "Congratulations", "artist": "Post Malone ft. Quavo", "cover": "https://picsum.photos/300/300?random=119" },
-        { "title": "Lose Yourself", "artist": "Eminem", "cover": "https://picsum.photos/300/300?random=120" }
-      ]
-    }
+    { "id": 1, "title": "Bohemian Rhapsody", "artistId": 1, "albumId": 1, "genreId": 1 },
+    { "id": 2, "title": "Stairway to Heaven", "artistId": 3, "albumId": 9, "genreId": 1 },
+    { "id": 3, "title": "Hotel California", "artistId": 13, "albumId": 49, "genreId": 1 },
+    { "id": 4, "title": "Sweet Child o' Mine", "artistId": 14, "albumId": 53, "genreId": 1 },
+    { "id": 5, "title": "Back In Black", "artistId": 15, "albumId": 57, "genreId": 1 },
+    { "id": 6, "title": "Smoke on the Water", "artistId": 16, "albumId": 61, "genreId": 1 },
+    { "id": 7, "title": "Another Brick in the Wall", "artistId": 4, "albumId": 14, "genreId": 1 },
+    { "id": 8, "title": "Livin' on a Prayer", "artistId": 17, "albumId": 65, "genreId": 1 },
+    { "id": 9, "title": "Don't Stop Believin'", "artistId": 18, "albumId": 69, "genreId": 1 },
+    { "id": 10, "title": "We Will Rock You", "artistId": 1, "albumId": 2, "genreId": 1 },
+    { "id": 11, "title": "Imagine", "artistId": 19, "albumId": 73, "genreId": 1 },
+    { "id": 12, "title": "Born to Run", "artistId": 20, "albumId": 77, "genreId": 1 },
+    { "id": 13, "title": "Paint It Black", "artistId": 21, "albumId": 81, "genreId": 1 },
+    { "id": 14, "title": "Highway to Hell", "artistId": 15, "albumId": 58, "genreId": 1 },
+    { "id": 15, "title": "Come Together", "artistId": 2, "albumId": 5, "genreId": 1 },
+    { "id": 16, "title": "Jump", "artistId": 22, "albumId": 85, "genreId": 1 },
+    { "id": 17, "title": "Free Bird", "artistId": 23, "albumId": 89, "genreId": 1 },
+    { "id": 18, "title": "Paradise City", "artistId": 14, "albumId": 54, "genreId": 1 },
+    { "id": 19, "title": "Dream On", "artistId": 24, "albumId": 93, "genreId": 1 },
+    { "id": 20, "title": "Under Pressure", "artistId": 1, "albumId": null, "genreId": 1 },
+    { "id": 21, "title": "Shape of You", "artistId": 7, "albumId": 25, "genreId": 2 },
+    { "id": 22, "title": "Blinding Lights", "artistId": 25, "albumId": 97, "genreId": 2 },
+    { "id": 23, "title": "Uptown Funk", "artistId": 26, "albumId": 101, "genreId": 2 },
+    { "id": 24, "title": "Bad Guy", "artistId": 27, "albumId": 105, "genreId": 2 },
+    { "id": 25, "title": "Sorry", "artistId": 28, "albumId": 109, "genreId": 2 },
+    { "id": 26, "title": "Roar", "artistId": 29, "albumId": 113, "genreId": 2 },
+    { "id": 27, "title": "Shake It Off", "artistId": 5, "albumId": 17, "genreId": 2 },
+    { "id": 28, "title": "Firework", "artistId": 29, "albumId": 114, "genreId": 2 },
+    { "id": 29, "title": "Havana", "artistId": 30, "albumId": 117, "genreId": 2 },
+    { "id": 30, "title": "All About That Bass", "artistId": 31, "albumId": 121, "genreId": 2 },
+    { "id": 31, "title": "Can't Stop the Feeling!", "artistId": 32, "albumId": 125, "genreId": 2 },
+    { "id": 32, "title": "Hello", "artistId": 6, "albumId": 22, "genreId": 2 },
+    { "id": 33, "title": "Levitating", "artistId": 8, "albumId": 29, "genreId": 2 },
+    { "id": 34, "title": "Thank U, Next", "artistId": 33, "albumId": 129, "genreId": 2 },
+    { "id": 35, "title": "Shallow", "artistId": 34, "albumId": 133, "genreId": 2 },
+    { "id": 36, "title": "Love Yourself", "artistId": 28, "albumId": 110, "genreId": 2 },
+    { "id": 37, "title": "Blank Space", "artistId": 5, "albumId": 17, "genreId": 2 },
+    { "id": 38, "title": "Cheap Thrills", "artistId": 35, "albumId": 137, "genreId": 2 },
+    { "id": 39, "title": "Senorita", "artistId": 36, "albumId": 141, "genreId": 2 },
+    { "id": 40, "title": "Someone Like You", "artistId": 6, "albumId": 21, "genreId": 2 },
+    { "id": 41, "title": "God's Plan", "artistId": 10, "albumId": 37, "genreId": 3 },
+    { "id": 42, "title": "SICKO MODE", "artistId": 11, "albumId": 41, "genreId": 3 },
+    { "id": 43, "title": "HUMBLE.", "artistId": 9, "albumId": 33, "genreId": 3 },
+    { "id": 44, "title": "Old Town Road", "artistId": 37, "albumId": 145, "genreId": 3 },
+    { "id": 45, "title": "Rockstar", "artistId": 12, "albumId": 46, "genreId": 3 },
+    { "id": 46, "title": "Lucid Dreams", "artistId": 38, "albumId": 149, "genreId": 3 },
+    { "id": 47, "title": "Suge", "artistId": 39, "albumId": 153, "genreId": 3 },
+    { "id": 48, "title": "In My Feelings", "artistId": 10, "albumId": 37, "genreId": 3 },
+    { "id": 49, "title": "XO TOUR Llif3", "artistId": 40, "albumId": 157, "genreId": 3 },
+    { "id": 50, "title": "Goosebumps", "artistId": 11, "albumId": 42, "genreId": 3 },
+    { "id": 51, "title": "Nonstop", "artistId": 10, "albumId": 37, "genreId": 3 },
+    { "id": 52, "title": "Money Trees", "artistId": 9, "albumId": 35, "genreId": 3 },
+    { "id": 53, "title": "Mask Off", "artistId": 41, "albumId": 161, "genreId": 3 },
+    { "id": 54, "title": "The Box", "artistId": 42, "albumId": 165, "genreId": 3 },
+    { "id": 55, "title": "DNA.", "artistId": 9, "albumId": 33, "genreId": 3 },
+    { "id": 56, "title": "Laugh Now Cry Later", "artistId": 10, "albumId": null, "genreId": 3 },
+    { "id": 57, "title": "Life Is Good", "artistId": 41, "albumId": null, "genreId": 3 },
+    { "id": 58, "title": "Hotline Bling", "artistId": 10, "albumId": 38, "genreId": 3 },
+    { "id": 59, "title": "Congratulations", "artistId": 12, "albumId": 47, "genreId": 3 },
+    { "id": 60, "title": "Lose Yourself", "artistId": 43, "albumId": 169, "genreId": 3 }
+  ],
+  "genres": [
+    { "id": 1, "name": "Rock" },
+    { "id": 2, "name": "Pop" },
+    { "id": 3, "name": "Hip-Hop" }
+  ],
+  "albums": [
+    { "id": 1, "title": "A Night at the Opera", "year": 1975, "cover": "https://picsum.photos/300/300?random=2", "artistId": 1 },
+    { "id": 2, "title": "News of the World", "year": 1977, "cover": "https://picsum.photos/300/300?random=3", "artistId": 1 },
+    { "id": 3, "title": "Jazz", "year": 1978, "cover": "https://picsum.photos/300/300?random=4", "artistId": 1 },
+    { "id": 4, "title": "The Game", "year": 1980, "cover": "https://picsum.photos/300/300?random=5", "artistId": 1 },
+    { "id": 5, "title": "Abbey Road", "year": 1969, "cover": "https://picsum.photos/300/300?random=7", "artistId": 2 },
+    { "id": 6, "title": "Sgt. Pepper's Lonely Hearts Club Band", "year": 1967, "cover": "https://picsum.photos/300/300?random=8", "artistId": 2 },
+    { "id": 7, "title": "Revolver", "year": 1966, "cover": "https://picsum.photos/300/300?random=9", "artistId": 2 },
+    { "id": 8, "title": "The White Album", "year": 1968, "cover": "https://picsum.photos/300/300?random=10", "artistId": 2 },
+    { "id": 9, "title": "Led Zeppelin IV", "year": 1971, "cover": "https://picsum.photos/300/300?random=12", "artistId": 3 },
+    { "id": 10, "title": "Physical Graffiti", "year": 1975, "cover": "https://picsum.photos/300/300?random=13", "artistId": 3 },
+    { "id": 11, "title": "Houses of the Holy", "year": 1973, "cover": "https://picsum.photos/300/300?random=14", "artistId": 3 },
+    { "id": 12, "title": "Led Zeppelin II", "year": 1969, "cover": "https://picsum.photos/300/300?random=15", "artistId": 3 },
+    { "id": 13, "title": "The Dark Side of the Moon", "year": 1973, "cover": "https://picsum.photos/300/300?random=17", "artistId": 4 },
+    { "id": 14, "title": "The Wall", "year": 1979, "cover": "https://picsum.photos/300/300?random=18", "artistId": 4 },
+    { "id": 15, "title": "Wish You Were Here", "year": 1975, "cover": "https://picsum.photos/300/300?random=19", "artistId": 4 },
+    { "id": 16, "title": "Animals", "year": 1977, "cover": "https://picsum.photos/300/300?random=20", "artistId": 4 },
+    { "id": 17, "title": "1989", "year": 2014, "cover": "https://picsum.photos/300/300?random=22", "artistId": 5 },
+    { "id": 18, "title": "Lover", "year": 2019, "cover": "https://picsum.photos/300/300?random=23", "artistId": 5 },
+    { "id": 19, "title": "Folklore", "year": 2020, "cover": "https://picsum.photos/300/300?random=24", "artistId": 5 },
+    { "id": 20, "title": "Midnights", "year": 2022, "cover": "https://picsum.photos/300/300?random=25", "artistId": 5 },
+    { "id": 21, "title": "21", "year": 2011, "cover": "https://picsum.photos/300/300?random=27", "artistId": 6 },
+    { "id": 22, "title": "25", "year": 2015, "cover": "https://picsum.photos/300/300?random=28", "artistId": 6 },
+    { "id": 23, "title": "30", "year": 2021, "cover": "https://picsum.photos/300/300?random=29", "artistId": 6 },
+    { "id": 24, "title": "19", "year": 2008, "cover": "https://picsum.photos/300/300?random=30", "artistId": 6 },
+    { "id": 25, "title": "÷ (Divide)", "year": 2017, "cover": "https://picsum.photos/300/300?random=32", "artistId": 7 },
+    { "id": 26, "title": "× (Multiply)", "year": 2014, "cover": "https://picsum.photos/300/300?random=33", "artistId": 7 },
+    { "id": 27, "title": "= (Equals)", "year": 2021, "cover": "https://picsum.photos/300/300?random=34", "artistId": 7 },
+    { "id": 28, "title": "+ (Plus)", "year": 2011, "cover": "https://picsum.photos/300/300?random=35", "artistId": 7 },
+    { "id": 29, "title": "Future Nostalgia", "year": 2020, "cover": "https://picsum.photos/300/300?random=37", "artistId": 8 },
+    { "id": 30, "title": "Dua Lipa", "year": 2017, "cover": "https://picsum.photos/300/300?random=38", "artistId": 8 },
+    { "id": 31, "title": "Radical Optimism", "year": 2024, "cover": "https://picsum.photos/300/300?random=39", "artistId": 8 },
+    { "id": 32, "title": "Club Future Nostalgia", "year": 2020, "cover": "https://picsum.photos/300/300?random=40", "artistId": 8 },
+    { "id": 33, "title": "DAMN.", "year": 2017, "cover": "https://picsum.photos/300/300?random=42", "artistId": 9 },
+    { "id": 34, "title": "To Pimp a Butterfly", "year": 2015, "cover": "https://picsum.photos/300/300?random=43", "artistId": 9 },
+    { "id": 35, "title": "good kid, m.A.A.d city", "year": 2012, "cover": "https://picsum.photos/300/300?random=44", "artistId": 9 },
+    { "id": 36, "title": "Mr. Morale & the Big Steppers", "year": 2022, "cover": "https://picsum.photos/300/300?random=45", "artistId": 9 },
+    { "id": 37, "title": "Scorpion", "year": 2018, "cover": "https://picsum.photos/300/300?random=47", "artistId": 10 },
+    { "id": 38, "title": "Views", "year": 2016, "cover": "https://picsum.photos/300/300?random=48", "artistId": 10 },
+    { "id": 39, "title": "Take Care", "year": 2011, "cover": "https://picsum.photos/300/300?random=49", "artistId": 10 },
+    { "id": 40, "title": "Nothing Was the Same", "year": 2013, "cover": "https://picsum.photos/300/300?random=50", "artistId": 10 },
+    { "id": 41, "title": "Astroworld", "year": 2018, "cover": "https://picsum.photos/300/300?random=52", "artistId": 11 },
+    { "id": 42, "title": "Birds in the Trap Sing McKnight", "year": 2016, "cover": "https://picsum.photos/300/300?random=53", "artistId": 11 },
+    { "id": 43, "title": "Rodeo", "year": 2015, "cover": "https://picsum.photos/300/300?random=54", "artistId": 11 },
+    { "id": 44, "title": "Utopia", "year": 2023, "cover": "https://picsum.photos/300/300?random=55", "artistId": 11 },
+    { "id": 45, "title": "Hollywood's Bleeding", "year": 2019, "cover": "https://picsum.photos/300/300?random=57", "artistId": 12 },
+    { "id": 46, "title": "beerbongs & bentleys", "year": 2018, "cover": "https://picsum.photos/300/300?random=58", "artistId": 12 },
+    { "id": 47, "title": "Stoney", "year": 2016, "cover": "https://picsum.photos/300/300?random=59", "artistId": 12 },
+    { "id": 48, "title": "Twelve Carat Toothache", "year": 2022, "cover": "https://picsum.photos/300/300?random=60", "artistId": 12 }
+  ],
+  "artists": [
+    { "id": 1, "name": "Queen", "image": "https://i.scdn.co/image/c06971e9ff81696699b829484e3be165f4e64368", "genreId": 1 },
+    { "id": 2, "name": "The Beatles", "image": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433", "genreId": 1 },
+    { "id": 3, "name": "Led Zeppelin", "image": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8", "genreId": 1 },
+    { "id": 4, "name": "Pink Floyd", "image": "https://i.scdn.co/image/f0a39a8a196a87a7236bdcf8a8708f6d5d3547cc", "genreId": 1 },
+    { "id": 5, "name": "Taylor Swift", "image": "https://i.scdn.co/image/ab67616100005174e672b5f553298dcdccb0e676", "genreId": 2 },
+    { "id": 6, "name": "Adele", "image": "https://i.scdn.co/image/ab6761610000517468f6e5892075d7f22615bd17", "genreId": 2 },
+    { "id": 7, "name": "Ed Sheeran", "image": "https://i.scdn.co/image/ab67616100005174399444ed4eace08b549d1161", "genreId": 2 },
+    { "id": 8, "name": "Dua Lipa", "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d", "genreId": 2 },
+    { "id": 9, "name": "Kendrick Lamar", "image": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918", "genreId": 3 },
+    { "id": 10, "name": "Drake", "image": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9", "genreId": 3 },
+    { "id": 11, "name": "Travis Scott", "image": "https://i.scdn.co/image/ab6761610000517419c2790744c792d05570bb71", "genreId": 3 },
+    { "id": 12, "name": "Post Malone", "image": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0", "genreId": 3 }
   ]
 }

@@ -7,6 +7,12 @@
 .artist-card {
   transition: box-shadow 0.2s;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-card .card-content {
+  flex-grow: 1;
 }
 .artist-card:hover {
   box-shadow: 0 4px 16px rgba(72, 95, 199, 0.15);
