@@ -12,38 +12,326 @@
   <section class="section">
     <div class="container is-fluid">
       <h1 class="title is-1 has-text-centered">Songster</h1>
+      
+      <!-- Barra de menú para agregar elementos -->
+      <div class="box has-background-light add-menu-box">
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <h3 class="subtitle is-5 has-text-weight-semibold">Agregar nuevo:</h3>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <div class="buttons">
+                <button class="button is-info" id="addArtistBtn">
+                  <span class="icon">
+                    <i class="fas fa-user-plus"></i>
+                  </span>
+                  <span>Artista</span>
+                </button>
+                <button class="button is-success" id="addAlbumBtn">
+                  <span class="icon">
+                    <i class="fas fa-compact-disc"></i>
+                  </span>
+                  <span>Álbum</span>
+                </button>
+                <button class="button is-warning" id="addSongBtn">
+                  <span class="icon">
+                    <i class="fas fa-music"></i>
+                  </span>
+                  <span>Canción</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div class="columns">
         <div class="column is-two-thirds">
           <h2 class="subtitle is-3 has-text-centered">Géneros</h2>
           <div class="genres-list"></div>
         </div>
         <div class="column is-one-third">
-          <h2 class="subtitle is-3 has-text-centered">Artistas</h2>
-          <div class="artists-list columns is-multiline"></div>
+          <h2 class="subtitle is-3 has-text-centered">Top mejores canciones</h2>
+          <div class="top-songs-list songs-grid two-columns"></div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Modal para actualizar género -->
-  <div id="updateGenreModal" class="modal">
+  <!-- Modal para actualizar canción -->
+  <div id="updateSongModal" class="modal">
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Actualizar Género</p>
-        <button class="delete" aria-label="close" id="closeGenreModal"></button>
+        <p class="modal-card-title">Actualizar Canción</p>
+        <button class="delete" aria-label="close" id="closeSongModal"></button>
       </header>
       <section class="modal-card-body">
         <div class="field">
-          <label class="label">Nuevo nombre del género</label>
+          <label class="label">Nuevo título de la canción</label>
           <div class="control">
-            <input class="input" type="text" id="newGenreNameInput" placeholder="Nombre del género">
+            <input class="input" type="text" id="newSongTitleInput" placeholder="Título de la canción">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Nueva imagen de portada (URL - Opcional)</label>
+          <div class="control">
+            <input class="input" type="url" id="newSongCoverInput" placeholder="URL de la imagen">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Género</label>
+          <div class="control">
+            <div class="select">
+              <select id="updateSongGenre">
+                <option value="">Seleccionar género</option>
+                <option value="1">Rock</option>
+                <option value="2">Pop</option>
+                <option value="3">Hip-Hop</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Artista</label>
+          <div class="control">
+            <div class="select">
+              <select id="updateSongArtist" disabled>
+                <option value="">Primero selecciona un género</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Álbum</label>
+          <div class="control">
+            <div class="select">
+              <select id="updateSongAlbum" disabled>
+                <option value="">Primero selecciona un artista</option>
+              </select>
+            </div>
           </div>
         </div>
       </section>
       <footer class="modal-card-foot">
-        <button class="button is-success" id="saveGenreChanges">Guardar cambios</button>
-        <button class="button" id="cancelGenreChanges">Cancelar</button>
+        <button class="button is-success" id="saveSongChanges">Guardar cambios</button>
+        <button class="button" id="cancelSongChanges">Cancelar</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal para actualizar artista -->
+  <div id="updateArtistModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Actualizar Artista</p>
+        <button class="delete" aria-label="close" id="closeArtistModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="field">
+          <label class="label">Nuevo nombre del artista</label>
+          <div class="control">
+            <input class="input" type="text" id="newArtistNameInput" placeholder="Nombre del artista">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Nueva imagen del artista (URL - Opcional)</label>
+          <div class="control">
+            <input class="input" type="url" id="newArtistImageInput" placeholder="URL de la imagen">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Género</label>
+          <div class="control">
+            <div class="select">
+              <select id="updateArtistGenre">
+                <option value="">Seleccionar género</option>
+                <option value="1">Rock</option>
+                <option value="2">Pop</option>
+                <option value="3">Hip-Hop</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" id="saveArtistChanges">Guardar cambios</button>
+        <button class="button" id="cancelArtistChanges">Cancelar</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal para actualizar álbum -->
+  <div id="updateAlbumModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Actualizar Álbum</p>
+        <button class="delete" aria-label="close" id="closeAlbumModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="field">
+          <label class="label">Nuevo título del álbum</label>
+          <div class="control">
+            <input class="input" type="text" id="newAlbumTitleInput" placeholder="Título del álbum">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Nuevo año</label>
+          <div class="control">
+            <input class="input" type="number" id="newAlbumYearInput" placeholder="Año">
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" id="saveAlbumChanges">Guardar cambios</button>
+        <button class="button" id="cancelAlbumChanges">Cancelar</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal para crear nuevo artista -->
+  <div id="createArtistModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Crear Nuevo Artista</p>
+        <button class="delete" aria-label="close" id="closeCreateArtistModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="field">
+          <label class="label">Nombre del artista</label>
+          <div class="control">
+            <input class="input" type="text" id="newArtistName" placeholder="Nombre del artista" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Imagen del artista (URL - Opcional)</label>
+          <div class="control">
+            <input class="input" type="url" id="newArtistImage" placeholder="URL de la imagen">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Género</label>
+          <div class="control">
+            <div class="select">
+              <select id="newArtistGenre">
+                <option value="">Seleccionar género</option>
+                <option value="1">Rock</option>
+                <option value="2">Pop</option>
+                <option value="3">Hip-Hop</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" id="saveNewArtist">Crear Artista</button>
+        <button class="button" id="cancelCreateArtist">Cancelar</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal para crear nuevo álbum -->
+  <div id="createAlbumModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Crear Nuevo Álbum</p>
+        <button class="delete" aria-label="close" id="closeCreateAlbumModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="field">
+          <label class="label">Título del álbum</label>
+          <div class="control">
+            <input class="input" type="text" id="newAlbumTitle" placeholder="Título del álbum" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Año</label>
+          <div class="control">
+            <input class="input" type="number" id="newAlbumYear" placeholder="Año" min="1900" max="2030" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Artista</label>
+          <div class="control">
+            <div class="select">
+              <select id="newAlbumArtist">
+                <option value="">Seleccionar artista</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" id="saveNewAlbum">Crear Álbum</button>
+        <button class="button" id="cancelCreateAlbum">Cancelar</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal para crear nueva canción -->
+  <div id="createSongModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Crear Nueva Canción</p>
+        <button class="delete" aria-label="close" id="closeCreateSongModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="field">
+          <label class="label">Título de la canción</label>
+          <div class="control">
+            <input class="input" type="text" id="newSongTitle" placeholder="Título de la canción" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Imagen de portada (URL - Opcional)</label>
+          <div class="control">
+            <input class="input" type="url" id="newSongCover" placeholder="URL de la imagen">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Género</label>
+          <div class="control">
+            <div class="select">
+              <select id="newSongGenre">
+                <option value="">Seleccionar género</option>
+                <option value="1">Rock</option>
+                <option value="2">Pop</option>
+                <option value="3">Hip-Hop</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Artista</label>
+          <div class="control">
+            <div class="select">
+              <select id="newSongArtist" disabled>
+                <option value="">Primero selecciona un género</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Álbum</label>
+          <div class="control">
+            <div class="select">
+              <select id="newSongAlbum" disabled>
+                <option value="">Primero selecciona un artista</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" id="saveNewSong">Crear Canción</button>
+        <button class="button" id="cancelCreateSong">Cancelar</button>
       </footer>
     </div>
   </div>

@@ -4,11 +4,19 @@
   background: #fff;
 }
 
+.artist-column {
+  padding: 0px;
+  justify-content: center;
+  display: flex;
+}
+
 .artist-card {
   transition: box-shadow 0.2s;
   height: 100%;
   display: flex;
   flex-direction: column;
+  min-width: 350px;
+  max-width: 350px;
 }
 
 .artist-card .card-content {
@@ -22,6 +30,80 @@
   margin-bottom: 1rem;
   border-top: 3px solid #ff3860;
   background: #fff0f6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.top-song-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 56, 96, 0.2);
+}
+
+.top-song-card .card-image {
+  flex-shrink: 0;
+}
+
+.top-song-card .card-image figure {
+  margin: 0;
+}
+
+.top-song-card .card-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.top-song-card .card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
+
+.top-song-card .title {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #363636;
+}
+
+.top-song-card .subtitle {
+  color: #7a7a7a;
+  font-size: 0.875rem;
+}
+
+/* Contenedor para las cards de canciones */
+.songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Para mostrar exactamente 2 cards por fila */
+.songs-grid.two-columns {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  gap: 1rem;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .songs-grid,
+  .songs-grid.two-columns {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+  
+  .top-song-card .card-image img {
+    height: 120px;
+  }
 }
 
 .card-footer {
@@ -57,3 +139,115 @@
 .btnGenreDelete:hover {
   background-color: #e03550;
 }
+
+/* Estilos para los botones de acción en las cards */
+.card-actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.top-song-card:hover .card-actions {
+  opacity: 1;
+}
+
+.artist-card:hover .card-actions {
+  opacity: 1;
+}
+
+/* Los botones de álbumes solo aparecen cuando haces hover en la card del álbum específicamente */
+.album-card:hover .card-actions {
+  opacity: 1;
+}
+
+/* Asegurar que los botones de álbumes no aparezcan cuando haces hover en la card del artista */
+.artist-card:hover .album-card:not(:hover) .card-actions {
+  opacity: 0;
+}
+
+.btnSongEdit,
+.btnSongDelete,
+.btnGenreEdit,
+.btnGenreDelete,
+.btnArtistEdit,
+.btnArtistDelete,
+.btnAlbumEdit,
+.btnAlbumDelete {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btnSongEdit,
+.btnGenreEdit,
+.btnArtistEdit,
+.btnAlbumEdit {
+  background-color: #3273dc;
+  color: white;
+}
+
+.btnSongEdit:hover,
+.btnGenreEdit:hover,
+.btnArtistEdit:hover,
+.btnAlbumEdit:hover {
+  background-color: #2366d1;
+  transform: scale(1.1);
+}
+
+.btnSongDelete,
+.btnGenreDelete,
+.btnArtistDelete,
+.btnAlbumDelete {
+  background-color: #ff3860;
+  color: white;
+}
+
+.btnSongDelete:hover,
+.btnGenreDelete:hover,
+.btnArtistDelete:hover,
+.btnAlbumDelete:hover {
+  background-color: #e03550;
+  transform: scale(1.1);
+}
+
+/* Posicionamiento relativo para las cards */
+.top-song-card,
+.artist-card,
+.album-card {
+  position: relative;
+}
+
+/* Estilos para la barra de menú */
+.add-menu-box {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-menu-box .level {
+  margin-bottom: 0;
+}
+
+.add-menu-box .buttons .button {
+  margin-left: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.add-menu-box .buttons .button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
